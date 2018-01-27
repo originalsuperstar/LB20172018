@@ -1,0 +1,138 @@
+#####lpn:lpg0917#####
+
+ENTRY       lpg0917           CDS       T00199
+
+NAME        murE
+
+DEFINITION  (RefSeq) UDP-N-acetylmuramyl-tripeptide synthetase MurE
+
+ORTHOLOGY   K01928  UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase [EC:6.3.2.13]
+
+ORGANISM    lpn  Legionella pneumophila subsp. pneumophila Philadelphia 1
+
+PATHWAY     lpn00300  Lysine biosynthesis
+
+            lpn00550  Peptidoglycan biosynthesis
+
+BRITE       KEGG Orthology (KO) [BR:lpn00001]
+
+             Metabolism
+
+              Amino acid metabolism
+
+               00300 Lysine biosynthesis
+
+                lpg0917 (murE)
+
+              Glycan biosynthesis and metabolism
+
+               00550 Peptidoglycan biosynthesis
+
+                lpg0917 (murE)
+
+            Enzymes [BR:lpn01000]
+
+             6. Ligases
+
+              6.3  Forming carbon-nitrogen bonds
+
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+
+                6.3.2.13  UDP-N-acetylmuramoyl-L-alanyl-D-glutamate---2,6-diaminopimelate ligase
+
+                 lpg0917 (murE)
+
+            Peptidoglycan biosynthesis and degradation proteins [BR:lpn01011]
+
+             Precursor biosynthesis
+
+              Amino acid ligase
+
+               lpg0917 (murE)
+
+POSITION    990018..991469
+
+MOTIF       Pfam: Mur_ligase_M Mur_ligase_C Mur_ligase
+
+DBLINKS     NCBI-GeneID: 19832483
+
+            NCBI-ProteinID: YP_094951
+
+            Pasteur: lpg0917
+
+            UniProt: Q5ZX16
+
+AASEQ       483
+
+            MKLTQLLEPWIKRDIIDGTVSDIKNDSRLVKEGDLFVAYPGAASDGRLYIEKAVASGAVA
+
+            VVYEPNNLPQGITLPTGIPCIAIPQLAEKLGEIAKRFFNNPSQFLGLTGVTGTNGKTTIA
+
+            YQLAQAHDLLGQHSAYIGTIGQGKVDALKPLENTTPDALCLQRLMHQYKEGGIKQVCMEV
+
+            SSHALSQHRVDSLEFSQAIFTNLTLDHLDYHQTMQAYGAAKSRLFERAELQWAIINQDDD
+
+            FQDLMSNVLKTHVKKVTYGMHQNCDVKALQWNMDITGTEIEVKSPWGHHLLKIKALGKFN
+
+            IYNSLAVYSSLLASGYNPEKVVQVMAELKAAPGRMEIVAQSPYVLVDYAHTPDALENVLI
+
+            TLKQIKKGRLWVVFGCGGDRDKTKRPIMGKAASMYADNIVITSDNPRSEDPEIILNEIAC
+
+            GIPASAPVSKLVNREEAIAYALRKAEHNDIILIAGKGHESYQQIGNTKHVFSDQEVVRRL
+
+            MNN
+
+NTSEQ       1452
+
+            gtgaaattaacccaattattagaaccgtggattaaaagggacattattgatggcactgtg
+
+            agtgacataaaaaatgacagccgcttggtgaaagaaggggatttatttgtcgcctatcca
+
+            ggggcagcttccgatggtcgattatatatagaaaaagccgtggcatcaggtgctgtcgct
+
+            gtggtttatgagcccaataatttacctcagggaattactttgccaacaggaattccctgt
+
+            atagccattccccaattagctgaaaaattaggggaaatagcgaaacggttttttaataac
+
+            ccatcccaatttcttggtttaactggggtaactggcacaaatggtaagacgactattgct
+
+            tatcagttggcacaggcacatgatttactcgggcagcactcggcttacatcgggactata
+
+            gggcaaggaaaggtggatgccttaaaacctttggaaaatactacgccagatgctctttgt
+
+            ttgcagaggttaatgcatcagtataaagaaggaggcattaaacaggtttgtatggaggta
+
+            tcctctcatgcgctgagccagcatagagtcgactctctcgaatttagtcaggctatcttt
+
+            accaatttaacgctcgatcatttagattatcaccagacaatgcaagcttatggggctgca
+
+            aagtcgaggttgtttgaacgagcagagttgcaatgggctattattaatcaggatgatgac
+
+            tttcaagatctcatgagcaatgtgctaaagactcatgtaaaaaaagtgacttacggtatg
+
+            catcaaaattgcgatgtgaaagcgctccaatggaatatggatatcaccggaacagaaatt
+
+            gaagtcaaatctccttgggggcaccaccttctaaagattaaagcactgggtaagtttaat
+
+            atttataatagcctggctgtttatagcagtttgcttgccagcgggtataatccagaaaaa
+
+            gtagtgcaagttatggccgaattaaaagcggctcctggccgaatggaaattgtcgctcaa
+
+            tccccatatgttcttgttgattatgctcatactcccgatgcattggaaaatgttcttatc
+
+            accttaaaacaaataaaaaaagggagattgtgggttgtatttggttgtggtggggacaga
+
+            gataaaaccaaacggcccattatgggaaaggcagccagcatgtacgctgataatattgtc
+
+            attaccagcgataatccaagaagtgaagatccggaaattattctaaatgaaattgcttgt
+
+            ggcattcctgcctctgcgcctgtctctaaactggtgaatagagaagaggcaattgcttat
+
+            gctttaagaaaggctgagcataacgatatcatattaatagcaggaaaaggacatgaatcg
+
+            tatcagcagattgggaatacaaaacatgttttttctgatcaggaagttgtaagacgtttg
+
+            atgaataattaa
+
+///
+

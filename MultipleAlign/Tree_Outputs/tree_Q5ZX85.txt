@@ -1,0 +1,22 @@
+    _____________________________________ Q5ZX85
+  ,|
+  ||        , gi|81370938|sp|Q5X6Q6.1|MURA_LEGPA
+  ||________|
+  |         | gi|81369026|sp|Q5WY61.1|MURA2_LEGPL
+ ,|
+ ||     __ gi|166222793|sp|A4XQN4.1|MURA_PSEMY
+ ||  __|
+ || |  |  , gi|259509751|sp|C3K8X4.1|MURA_PSEFS
+ || |  |__|
+ ||_|     |, gi|37999563|sp|Q87WV2.1|MURA_PSESM
+ |  |     ||
+ |  |      | gi|75500744|sp|Q4ZNV7.1|MURA_PSEU2
+ |  |
+ |  |_____ gi|123753532|sp|Q2SBJ4.1|MURA_HAHCH
+_|
+ |______ gi|91207285|sp|Q3J7G9.1|MURA_NITOC
+ |
+ |_____ gi|81681683|sp|Q606Q0.1|MURA_METCA
+ |
+ |______ gi|254764119|sp|B8GMK2.1|MURA_THISH
+

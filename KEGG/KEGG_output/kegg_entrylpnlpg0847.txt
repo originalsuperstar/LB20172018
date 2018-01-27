@@ -1,0 +1,132 @@
+#####lpn:lpg0847#####
+
+ENTRY       lpg0847           CDS       T00199
+
+NAME        murA
+
+DEFINITION  (RefSeq) UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+
+ORTHOLOGY   K00790  UDP-N-acetylglucosamine 1-carboxyvinyltransferase [EC:2.5.1.7]
+
+ORGANISM    lpn  Legionella pneumophila subsp. pneumophila Philadelphia 1
+
+PATHWAY     lpn00520  Amino sugar and nucleotide sugar metabolism
+
+            lpn00550  Peptidoglycan biosynthesis
+
+            lpn01100  Metabolic pathways
+
+BRITE       KEGG Orthology (KO) [BR:lpn00001]
+
+             Metabolism
+
+              Carbohydrate metabolism
+
+               00520 Amino sugar and nucleotide sugar metabolism
+
+                lpg0847 (murA)
+
+              Glycan biosynthesis and metabolism
+
+               00550 Peptidoglycan biosynthesis
+
+                lpg0847 (murA)
+
+            Enzymes [BR:lpn01000]
+
+             2. Transferases
+
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+
+                2.5.1.7  UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+
+                 lpg0847 (murA)
+
+            Peptidoglycan biosynthesis and degradation proteins [BR:lpn01011]
+
+             Precursor biosynthesis
+
+              Transferase/Dehydrogenase
+
+               lpg0847 (murA)
+
+POSITION    923134..924402
+
+MOTIF       Pfam: EPSP_synthase
+
+DBLINKS     NCBI-GeneID: 19832413
+
+            NCBI-ProteinID: YP_094882
+
+            Pasteur: lpg0847
+
+            UniProt: Q5ZX85
+
+AASEQ       422
+
+            MDKLLINGGKALHGEVVISGAKNAALPIMAASLLASDHVTISNVPHLKDITTMMELLGQL
+
+            GAHLIVDEKMNVQVDSSQVNEFVAPYDLVKTMRASILVLGPMLARFGKADVSLPGGCAIG
+
+            TRPVDLHLKALRAMGADITVKNGYINARCKKGCLQGKRLMFDTVTVTGTENVLMAAVLAE
+
+            GITTIKNAAREPEVVDLANFLIQMGAKIRGAGTSTIEVEGVESLNGGTYSVMSDRIEAGT
+
+            YLAAGALTRGQVTVKKVRPDTLLSQLCKFEEAGAELTIGEDWVSLNMHNKRPQAVNISTA
+
+            PYPAFATDMQAQFMAMNSVAEGSSTIIETIFENRFMHVQELQRMGANIQLNGNTAIVHGV
+
+            EKLTGAPVMATDLRASASLILAGLVAEGETVVERIYHVDRGYERIEEKLSLLGADIKRVS
+
+            DR
+
+NTSEQ       1269
+
+            atggataaattattgattaatggtggtaaagcattacatggtgaagtggtcatttcggga
+
+            gcaaaaaacgctgctcttccaatcatggctgccagtctattagccagtgatcacgtcaca
+
+            atatctaatgtgcctcatcttaaagacatcactaccatgatggaactgttaggacaattg
+
+            ggagctcatttaattgttgatgaaaagatgaatgttcaagttgactccagtcaagtcaat
+
+            gagtttgttgctccttacgatctggtcaaaacaatgcgtgcctccattttggtattaggc
+
+            ccaatgctggcgcgcttcggtaaggcagatgtttctctgcccggtggatgcgccattgga
+
+            acaagaccagttgacctgcatttaaaagcattaagagccatgggggcagacattacggtt
+
+            aaaaatggctacatcaatgctcgttgcaaaaagggatgtctgcaaggtaaacgcttgatg
+
+            tttgacacagttactgtcacaggaaccgaaaatgtgttaatggctgctgtgttggcagaa
+
+            ggcattactacgattaaaaatgctgcgcgcgaaccagaagtagtagacttggctaacttt
+
+            ctgattcaaatgggagcgaaaattcgaggcgcgggtacttctactattgaagtagaaggt
+
+            gtggaatcactaaacggtgggacttattcggtcatgtccgatagaatagaagcgggcact
+
+            tatttggcagctggagcgcttactcgtggtcaagtgactgttaagaaagtacgtcctgat
+
+            actttattatctcaattatgtaaattcgaagaggcaggcgcggaattaaccattggtgag
+
+            gattgggtcagtttaaatatgcataacaagcggcctcaggcagttaatatttcaaccgcc
+
+            ccttatcctgcatttgcaacggatatgcaagctcaatttatggcaatgaattccgtagca
+
+            gaaggttcttcaactattatagaaactatttttgaaaaccgatttatgcatgttcaagag
+
+            ttacagagaatgggggctaatatccaacttaatggaaatacagccatcgttcatggtgtt
+
+            gaaaaattaactggcgcaccggtaatggctactgatttaagggcatcagccagtttaatt
+
+            ctcgcgggcctggttgctgaaggggaaacagtagttgagcggatttatcatgttgataga
+
+            ggctatgagcgaatagaagaaaagttatctctattgggagcggacattaagagagtttct
+
+            gacaggtga
+
+///
+

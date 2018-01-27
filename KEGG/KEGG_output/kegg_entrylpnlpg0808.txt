@@ -1,0 +1,126 @@
+#####lpn:lpg0808#####
+
+ENTRY       lpg0808           CDS       T00199
+
+NAME        murG
+
+DEFINITION  (RefSeq) undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase
+
+ORTHOLOGY   K02563  UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase [EC:2.4.1.227]
+
+ORGANISM    lpn  Legionella pneumophila subsp. pneumophila Philadelphia 1
+
+PATHWAY     lpn00550  Peptidoglycan biosynthesis
+
+            lpn01100  Metabolic pathways
+
+            lpn01502  Vancomycin resistance
+
+BRITE       KEGG Orthology (KO) [BR:lpn00001]
+
+             Metabolism
+
+              Glycan biosynthesis and metabolism
+
+               00550 Peptidoglycan biosynthesis
+
+                lpg0808 (murG)
+
+             Human Diseases
+
+              Drug resistance
+
+               01502 Vancomycin resistance
+
+                lpg0808 (murG)
+
+            Enzymes [BR:lpn01000]
+
+             2. Transferases
+
+              2.4  Glycosyltransferases
+
+               2.4.1  Hexosyltransferases
+
+                2.4.1.227  undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase
+
+                 lpg0808 (murG)
+
+            Peptidoglycan biosynthesis and degradation proteins [BR:lpn01011]
+
+             Precursor biosynthesis
+
+              Glycosyltransferase
+
+               lpg0808 (murG)
+
+POSITION    886804..887895
+
+MOTIF       Pfam: Glyco_transf_28 Glyco_tran_28_C Glyco_trans_1_3 UDPGT
+
+DBLINKS     NCBI-GeneID: 19832374
+
+            NCBI-ProteinID: YP_094843
+
+            Pasteur: lpg0808
+
+            UniProt: Q5ZXC4
+
+AASEQ       363
+
+            MSPSIVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSG
+
+            KLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVA
+
+            HESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLEL
+
+            CGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQ
+
+            FEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQG
+
+            LGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKEQAHVQTP
+
+            RIV
+
+NTSEQ       1092
+
+            atgagcccaagtattgtttttaccgggggaggaactgccggacatgtaacgcctaatatc
+
+            gctttgattaaggaatttcgaaaagaaggctggaatgtagaatatatcggctctgtttcc
+
+            ggaattgaaaaggagatgattgagccgctggacattccttttcatggggtcagtagcggt
+
+            aaattgcgcaggtattttagtttgaagaacttgcttgatcctttcaaaattgttctggga
+
+            attattcaatcttctttgctattttataaaatcaaacccgatgtggttttttcaaaaggt
+
+            ggctttgtagcctttcctgtggttgtaggcgcctggttaaatcgaattcctgttgtcgct
+
+            catgagtctgatatgagcccaggacttgcgaatcgcctatcctttcctttcgtcaataaa
+
+            atatgtcttacttttgatgctggcaaaaaatactttaagcgtcaggataaaatagaagtg
+
+            acgggtactccaattcgtcaacagctattaactggaaatcgaatgaaaggattggagtta
+
+            tgcggatttaattcctccaaaccttgcctgcttgtagtgggaggaagcttaggggctggt
+
+            tcaattaacagttgtattcgaagcgcattgaaacaattgacatcagaatttcaagtcatt
+
+            catctttgtggcaagggaaaacttgattcttcattggttggtgtggagggatattgccaa
+
+            tttgaatacgccaatgaagagttggctgatctgttcgctgcttcttctgtggtgatttct
+
+            cgagcaggagctaattctttgtatgaaatattagcattaggaaaaccacatatcttaatt
+
+            ccaatctcttcacaagtaagcagaggagatcaaattcagaatgcaaggtacttccaggga
+
+            ttgggaataagcgttgtgattcaggacgagttattgaaagctgatgttctattacaggca
+
+            gtacaggacgtaatgcgaaaaaaagatgaaatagataataaaatcaaagcattaaaaatt
+
+            gagtctgccactgataagattgtggcaattatcaaggagcaagcacatgttcaaacccca
+
+            aggattgtatga
+
+///
+

@@ -1,0 +1,18 @@
+#Batch CD-search tool	NIH/NLM/NCBI
+#cdsid	QM3-qcdsearch-2E4BDDA5ACDA446D-1A101964E761497B
+#datatype	hitsConcise Results
+#status	0
+#Start time	2018-01-18T14:38:14	Run time	0:00:00:23
+#status	success
+
+Query	Hit type	PSSM-ID	From	To	E-Value	Bitscore	Accession	Short name	Incomplete	Superfamily
+Q#1 - > Q5ZXC4 | lpg0808 length= 363	specific	234825	2	356	3.76046e-138	396.809	PRK00726	murG	 - 	cl28259
+Q#2 - > Q5ZX85 | lpg0847 length= 422	specific	236486	1	419	0	766.886	PRK09369	PRK09369	 - 	cl00288
+Q#3 - > Q5ZX16 | lpg0917 length= 483	specific	234660	1	481	0	559.749	PRK00139	murE	 - 	cl27879
+Q#4 - > Q5ZT55 | lpg2310 length= 288	specific	234851	18	274	2.22779e-95	281.605	PRK00865	PRK00865	 - 	cl00518
+Q#5 - > Q5ZSA7 | lpg2612 length= 364	specific	234993	1	350	5.16718e-165	463.823	PRK01966	ddl	 - 	cl25874
+Q#6 - > Q5ZSA6 | lpg2613 length= 308	specific	237553	11	302	3.1755e-158	443.014	PRK13905	murB	 - 	cl27337
+Q#7 - > Q5ZSA5 | lpg2614 length= 469	specific	234757	10	467	0	696.482	PRK00421	murC	 - 	cl27879
+Q#8 - > Q5ZSA3 | lpg2616 length= 447	specific	235160	1	447	0	737.504	PRK03803	murD	 - 	cl27880
+Q#9 - > Q5ZSA2 | lpg2617 length= 361	specific	234638	16	361	0	548.97	PRK00108	mraY	 - 	cl10571
+Q#10 - > Q5ZSA1 | lpg2618 length= 461	specific	273468	41	453	1.06605e-162	465.587	TIGR01143	murF	 - 	cl27879

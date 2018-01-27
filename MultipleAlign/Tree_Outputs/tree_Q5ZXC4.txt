@@ -1,0 +1,22 @@
+                                       , Q5ZXC4
+                                       |
+                                       | gi|81370965|sp|Q5X6U5.1|MURG_LEGPA
+                                       |
+                   ____________________| gi|81369055|sp|Q5WY98.1|MURG_LEGPL
+                  |                    |
+            ______|                    |_ gi|166230654|sp|A5IGA6.1|MURG_LEGPC
+           |      |
+  _________|      |______________ gi|259509798|sp|C4Z1B5.1|MURG_EUBE2
+ |         |
+ |         |___________ gi|90109819|sp|Q893R7.2|MURG_CLOTE
+ |
+ | gi|259509793|sp|C3L230.1|MURG_CLOB6
+ |
+ | gi|229485697|sp|B1KYH7.1|MURG_CLOBM
+ |
+ | gi|166230709|sp|A7FX11.1|MURG_CLOB1
+_|
+ | gi|166230711|sp|A7GGX9.1|MURG_CLOBL
+ |
+ | gi|254766074|sp|C1FUF9.1|MURG_CLOBJ
+

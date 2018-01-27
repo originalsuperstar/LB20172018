@@ -1,0 +1,20 @@
+lpn:lpg0847	murA; UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+
+lpn:lpg2310	murI; glutamate racemase
+
+lpn:lpg2612	ddl; D-alanyl-alanine synthetase A
+
+lpn:lpg2613	murB; UDP-N-acetylenolpyruvoylglucosamine reductase
+
+lpn:lpg2614	murC; UDP-N-acetylmuramate--L-alanine ligase
+
+lpn:lpg2616	murD; UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase
+
+lpn:lpg0917	murE; UDP-N-acetylmuramyl-tripeptide synthetase MurE
+
+lpn:lpg2618	murF; UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+
+lpn:lpg2617	mraY; phospho-N-acetylmuramoyl-pentapeptide-transferase
+
+lpn:lpg0808	murG; undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase
+

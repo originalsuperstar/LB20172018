@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_33853</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5ZX16 | lpg0917 length= 483</BlastOutput_query-def>
+  <BlastOutput_query-len>483</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>3</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_33853</Iteration_query-ID>
+  <Iteration_query-def>Q5ZX16 | lpg0917 length= 483</Iteration_query-def>
+  <Iteration_query-len>483</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|21362721|sp|Q9JSZ0.1|MURE_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase; AltName: Full=Meso-A2pm-adding enzyme; AltName: Full=Meso-diaminopimelate-adding enzyme; AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase; AltName: Full=UDP-MurNAc-tripeptide synthetase; AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase</Hit_def>
+  <Hit_accession>Q9JSZ0</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>387.497</Hsp_bit-score>
+      <Hsp_score>994</Hsp_score>
+      <Hsp_evalue>2.16892e-129</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>462</Hsp_align-len>
+      <Hsp_qseq>IKNDSRLVKEGDLFVAYPGAASDGRLYIEKAVASGAVAVVYEPNNLPQGITLPTGIPCIAIPQLAEKLGEIAKRFFNNPSQFLGLTGVTGTNGKTTIAYQLAQAHDLLGQHSAYIGTIGQGKVDALKPLENTTPDALCLQRLMHQYKEGGIKQVCMEVSSHALSQHRVDSLEFSQAIFTNLTLDHLDYHQTMQAYGAAKSRLFERAELQWAIINQDDDFQDLMSNVLKTHVKKV---TYGMHQNCDVKALQWNMDITGTEIEVKSPWGHHLLKIKALGKFNIYNSLAVYSSLLASGYNPEKVVQVMAELKAAPGRMEIVAQS--PYVLVDYAHTPDALENVLITLKQIKK--GRLWVVFGCGGDRDKTKRPIMGKAASMYADNIVITSDNPRSEDPEIILNEIACGIPASAPVSKLVNREEAIAYALRKAEHNDIILIAGKGHESYQQIGNTKHVFSDQEVV</Hsp_qseq>
+      <Hsp_hseq>LHSDSRQIKQGDIFVACPGEYADGRSYIPAAVANGA-AFVFWDDDGKFAWNPEWKVPNQGIKDLKHRAGILAAQVYGNVSDGLKFWGVTGTNGKTSITQWLAQAADLLGEKTAIVGTVGNGFWGALEETTHTTPAPVDVQTLLYRFRQQGATVAAMEVSSHGLDQSRVNGVSFRSAIFTNLTRDHLDYHGTMEAYGAIKSRLFYWHGLKHAVINVDDEYGAELAGRLKKDCPDLAVYSYGFSEQADIRIIDFTASSDGIAAVFQTPWGEGKCRTRLLGRFNAQNLAACIALLCANGYPLDNVLDVLAKIRPASGRMDCIMNSGKPLVVVDYAHTPDALEKALATLQEIKPQGAALWCVFGCGGNRDRGKRPLMGAAAVQGADKVVVTSDNPRLENPHDIINDILPAVP--APECVEADRAAAIRYAVEQAAANDIILIAGKGHENYQDVQGVKHRFSDLEIV</Hsp_hseq>
+      <Hsp_midline>+ +DSR +K+GD+FVA PG  +DGR YI  AVA+GA A V+  ++          +P   I  L  + G +A + + N S  L   GVTGTNGKT+I   LAQA DLLG+ +A +GT+G G   AL+   +TTP  + +Q L++++++ G     MEVSSH L Q RV+ + F  AIFTNLT DHLDYH TM+AYGA KSRLF    L+ A+IN DD++   ++  LK     +   +YG  +  D++ + +     G     ++PWG    + + LG+FN  N  A  + L A+GY  + V+ V+A+++ A GRM+ +  S  P V+VDYAHTPDALE  L TL++IK     LW VFGCGG+RD+ KRP+MG AA   AD +V+TSDNPR E+P  I+N+I   +P  AP     +R  AI YA+ +A  NDIILIAGKGHE+YQ +   KH FSD E+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|21362724|sp|Q9K0Y9.1|MURE_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase; AltName: Full=Meso-A2pm-adding enzyme; AltName: Full=Meso-diaminopimelate-adding enzyme; AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase; AltName: Full=UDP-MurNAc-tripeptide synthetase; AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase</Hit_def>
+  <Hit_accession>Q9K0Y9</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.03</Hsp_bit-score>
+      <Hsp_score>985</Hsp_score>
+      <Hsp_evalue>3.75034e-128</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>462</Hsp_align-len>
+      <Hsp_qseq>IKNDSRLVKEGDLFVAYPGAASDGRLYIEKAVASGAVAVVYEPNNLPQGITLPTGIPCIAIPQLAEKLGEIAKRFFNNPSQFLGLTGVTGTNGKTTIAYQLAQAHDLLGQHSAYIGTIGQGKVDALKPLENTTPDALCLQRLMHQYKEGGIKQVCMEVSSHALSQHRVDSLEFSQAIFTNLTLDHLDYHQTMQAYGAAKSRLFERAELQWAIINQDDDFQDLMSNVLKTHVKKV---TYGMHQNCDVKALQWNMDITGTEIEVKSPWGHHLLKIKALGKFNIYNSLAVYSSLLASGYNPEKVVQVMAELKAAPGRMEIVAQS--PYVLVDYAHTPDALENVLITLKQIKK--GRLWVVFGCGGDRDKTKRPIMGKAASMYADNIVITSDNPRSEDPEIILNEIACGIPASAPVSKLVNREEAIAYALRKAEHNDIILIAGKGHESYQQIGNTKHVFSDQEVV</Hsp_qseq>
+      <Hsp_hseq>LHSDSRQIKQGDIFVACPGEYADGRSYIPAAVANGA-AFVFWDDDGKFAWNPEWKVPNQGIKDLKHRAGILAAQVYGNVSDGLKVWGVAGTNGKTSITQWLAQAADLLGEKTAIVGTVGNGFWGALEETTHTTPAPVDVQTLLYRFRQQGATVAAMEVSSHGLDQSRVNGVSFRSAIFTNLTRDHLDYHGTMEAYGAIKSRLFYWHGLKHAVINVDDEYGAELVGRLKKDCPDLAVYSYGFSEHADIRITDFTASSDGIAAVFQTPWGEGKCRTRLLGRFNAQNLAACIALLCANGYPLDKVLDVLAKIRPASGRMDCIMNSGKPLVVVDYAHTPDALEKALATLQEIKPQGAALWCVFGCGGNRDRGKRPLMGAAAVQGADKVVVTSDNPRLENPHDIINDILPAVP--APECVEADRAAAVRYAVEQAAANDIILIAGKGHENYQDVQGVKHRFSDLEIV</Hsp_hseq>
+      <Hsp_midline>+ +DSR +K+GD+FVA PG  +DGR YI  AVA+GA A V+  ++          +P   I  L  + G +A + + N S  L + GV GTNGKT+I   LAQA DLLG+ +A +GT+G G   AL+   +TTP  + +Q L++++++ G     MEVSSH L Q RV+ + F  AIFTNLT DHLDYH TM+AYGA KSRLF    L+ A+IN DD++   +   LK     +   +YG  ++ D++   +     G     ++PWG    + + LG+FN  N  A  + L A+GY  +KV+ V+A+++ A GRM+ +  S  P V+VDYAHTPDALE  L TL++IK     LW VFGCGG+RD+ KRP+MG AA   AD +V+TSDNPR E+P  I+N+I   +P  AP     +R  A+ YA+ +A  NDIILIAGKGHE+YQ +   KH FSD E+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|46576920|sp|Q7NPZ4.1|MURE_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase; AltName: Full=Meso-A2pm-adding enzyme; AltName: Full=Meso-diaminopimelate-adding enzyme; AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase; AltName: Full=UDP-MurNAc-tripeptide synthetase; AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase</Hit_def>
+  <Hit_accession>Q7NPZ4</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>1.25512e-123</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>482</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>VSDIKNDSRLVKEGDLFVAYPGAASDGRLYIEKAVASGAVAVVYEPNNLPQGITLPT--GIPCIAIPQLAEKLGEIAKRFFNNPSQFLGLTGVTGTNGKTTIAYQLAQAHDLLGQHSAYIGTIGQGKVDALKPLENTTPDALCLQRLMHQYKEGGIKQVCMEVSSHALSQHRVDSLEFSQAIFTNLTLDHLDYHQTMQAYGAAKSRLFERAELQWAIINQDDDF-QDLMSNVLKTHVKKVTYGMHQNCDVKALQWNMDITGTEIEVKSPWGHHLLKIKALGKFNIYNSLAVYSSLLASGYNPEKVVQVMAELKAAPGRMEIV--AQSPYVLVDYAHTPDALENVLITLKQIKK--GRLWVVFGCGGDRDKTKRPIMGKAASMYADNIVITSDNPRSEDPEIILNEIACGIPASAPVSKLVNREEAIAYALRKAEHNDIILIAGKGHESYQQIGNTKHVFSDQEVVRRLMN</Hsp_qseq>
+      <Hsp_hseq>IKRVEADSRRVLPGDVFLACRGEYADGRDFIPAALEKGAAAVLWDEAD---GFAWKAEWQAPNLAVPNLRERAGIVAAHVLGLPSRDLTVVGITGTNGKTSISHWLAQAFSLLGQKAALIGTVGNGFYGHLTETTHTTPDPVTVQQKLAEYRRQGAHVVTMEVSSHGLDQFRVNGVEFATAVFTNLTRDHLDYHGSMEAYGESKKKLFFWEGLKHAVINADDAFGRQLAAGIDPKQTRVVTYGLEQG-DVRPLALAATLEGLQLTVATPWGTVDVRTGLVGRFNAANLLACLATLCVNGVSLQDAAAVMARIQPARGRMQSVGGAHEPLVVIDYAHTPDALEKALATLSEIRPAGGRLFCVFGCGGDRDPGKRPMMGAIAEKHADVAVLTSDNPRSEDPQAIIRDVLAGMDA-ARAHVEADREAAIHWAVAQARVGDVVLVAGKGHEEYQDIAGVKRPFSDFRVAEEALT</Hsp_hseq>
+      <Hsp_midline>+  ++ DSR V  GD+F+A  G  +DGR +I  A+  GA AV+++  +   G         P +A+P L E+ G +A      PS+ L + G+TGTNGKT+I++ LAQA  LLGQ +A IGT+G G    L    +TTPD + +Q+ + +Y+  G   V MEVSSH L Q RV+ +EF+ A+FTNLT DHLDYH +M+AYG +K +LF    L+ A+IN DD F + L + +     + VTYG+ Q  DV+ L     + G ++ V +PWG   ++   +G+FN  N LA  ++L  +G + +    VMA ++ A GRM+ V  A  P V++DYAHTPDALE  L TL +I+   GRL+ VFGCGGDRD  KRP+MG  A  +AD  V+TSDNPRSEDP+ I+ ++  G+ A A      +RE AI +A+ +A   D++L+AGKGHE YQ I   K  FSD  V    + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122945144|sp|Q0I1D8.1|MURE_HAES1</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase; AltName: Full=Meso-A2pm-adding enzyme; AltName: Full=Meso-diaminopimelate-adding enzyme; AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase; AltName: Full=UDP-MurNAc-tripeptide synthetase; AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase</Hit_def>
+  <Hit_accession>Q0I1D8</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.933</Hsp_bit-score>
+      <Hsp_score>951</Hsp_score>
+      <Hsp_evalue>6.01533e-123</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>470</Hsp_align-len>
+      <Hsp_qseq>DSRLVKEGDLFVAYPGAASDGRLYIEKAVASGAVAVVYEPNNLPQGITLP--TGIPCIAIPQLAEKLGEIAKRFFNNPSQFLGLTGVTGTNGKTTIAYQLAQAHDLLGQHSAYIGTIGQGKVDALKPLENTTPDALCLQRLMHQYKEGGIKQVCMEVSSHALSQHRVDSLEFSQAIFTNLTLDHLDYHQTMQAYGAAKSRLFERAELQWAIINQDD------------DFQDLMSNVLKTHVKKVTYGMHQNCDVKALQWNMDITGTEIEVKSPWGHHLLKIKALGKFNIYNSLAVYSSLLASGYNPEKVVQVMAELKAAPGRMEIVA--QSPYVLVDYAHTPDALENVLITLKQIKKGRLWVVFGCGGDRDKTKRPIMGKAASMYADNIVITSDNPRSEDPEIILNEIACGIPASAPVSKLVNREEAIAYALRKAEHNDIILIAGKGHESYQQIGNTKHVFSDQEVVRR</Hsp_qseq>
+      <Hsp_hseq>DSRLANTGCLFVAIKGHRVDGREFIMQAIQNGASAVLFETDLVEQHLTVSFEQNIPLIAYYELSKHLSHIADRFYSSPSQRLTLVGVTGTNGKTTIAQLLAQWTQILGHTSAVMGTIGNGLFGQIKEASNTTGSAIEIQSSLDKFIRQGADFAAIEVSSHGLVQHRVEALTFRAGIFTNLSRDHLDYHHTMENYAQAKKRLFSELNCQHKILNVDDEIGATWLIELSKDDPDVVAVSCRADYQPDTKNW-----LKATALSFHSKGTTIEFASSWGNGILSSPLIGGFNVSNLLLVLATLLSLGYDIGKLLATVRQLTGVCGRMEMLSAKHKATVIVDYAHTPDALENALQSAAVHCQGKLWCIFGCGGDRDRGKRPLMAAIAEKFADSVIVTDDNPRTENPEQIMQDILTGFQQSSAVQIIHQREQAIKTALQSAVENDVVLIAGKGHENYQIIGTTKYHFSDQEIVKK</Hsp_hseq>
+      <Hsp_midline>DSRL   G LFVA  G   DGR +I +A+ +GA AV++E + + Q +T+     IP IA  +L++ L  IA RF+++PSQ L L GVTGTNGKTTIA  LAQ   +LG  SA +GTIG G    +K   NTT  A+ +Q  + ++   G     +EVSSH L QHRV++L F   IFTNL+ DHLDYH TM+ Y  AK RLF     Q  I+N DD            D  D+++   +   +  T        +KA   +    GT IE  S WG+ +L    +G FN+ N L V ++LL+ GY+  K++  + +L    GRME+++      V+VDYAHTPDALEN L +     +G+LW +FGCGGDRD+ KRP+M   A  +AD++++T DNPR+E+PE I+ +I  G   S+ V  +  RE+AI  AL+ A  ND++LIAGKGHE+YQ IG TK+ FSDQE+V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|13431686|sp|P57815.1|MURE_PASMU</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase; AltName: Full=Meso-A2pm-adding enzyme; AltName: Full=Meso-diaminopimelate-adding enzyme; AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase; AltName: Full=UDP-MurNAc-tripeptide synthetase; AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase</Hit_def>
+  <Hit_accession>P57815</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.548</Hsp_bit-score>
+      <Hsp_score>950</Hsp_score>
+      <Hsp_evalue>9.38723e-123</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>DSRLVKEGDLFVAYPGAASDGRLYIEKAVASGAVAVVYEPNNLPQGIT--LPTGIPCIAIPQLAEKLGEIAKRFFNNPSQFLGLTGVTGTNGKTTIAYQLAQAHDLLGQHSAYIGTIGQGKVDALKPLENTTPDALCLQRLMHQYKEGGIKQVCMEVSSHALSQHRVDSLEFSQAIFTNLTLDHLDYHQTMQAYGAAKSRLFERAELQWAIINQDDDFQDLMSNVLKTHVK---KVTYGMHQNCDVKALQWNMDITGTEIEVKSPWGHHLLKIKALGKFNIYNSLAVYSSLLASGYNPEKVVQVMAELKAAPGRMEIVAQS--PYVLVDYAHTPDALENVLITLKQIKKGRLWVVFGCGGDRDKTKRPIMGKAASMYADNIVITSDNPRSEDPEIILNEIACGIPASAPVSKLVNREEAIAYALRKAEHNDIILIAGKGHESYQQIGNTKHVFSDQEVVRR</Hsp_qseq>
+      <Hsp_hseq>DSRAVKQGCLFVALQGHQVDGRQYIPQAIAKGASAVLAETEDAQQHLSTKIEQGVPIISFYQLGSHLSALAGLFYDNPSHKLTLVGVTGTNGKTTISQLLAQWTTLLGHRSAVMGTIGNGLLGQVKEATNTTGSAVEVQASLADFVKRGADFAAIEVSSHGLVQHRVEALAFDVAIFTNLSRDHLDYHQSMENYALAKKRLFTELNSRHQIINADDSVGQTWLQEQPNAVAVSCQTDFKPHQARWLKATAIQFSQKGARIQFESSWGKGELHSALIGQFNVSNLLLVFATLLSLGYDIEKLMKTVPQLTGVCGRMERLSASNQPTAIVDYAHTPDALEKALQAARLHCQGKLWCVFGCGGDRDRGKRPIMAKIAEQFADHVIVTDDNPRTESAAQIVQDILAGFEHPQHVEVCHARDQAIIQALQKADSDDVVLIAGKGHEDYQIIGTQKQHFSDQETVQQ</Hsp_hseq>
+      <Hsp_midline>DSR VK+G LFVA  G   DGR YI +A+A GA AV+ E  +  Q ++  +  G+P I+  QL   L  +A  F++NPS  L L GVTGTNGKTTI+  LAQ   LLG  SA +GTIG G +  +K   NTT  A+ +Q  +  + + G     +EVSSH L QHRV++L F  AIFTNL+ DHLDYHQ+M+ Y  AK RLF     +  IIN DD             V    +  +  HQ   +KA        G  I+ +S WG   L    +G+FN+ N L V+++LL+ GY+ EK+++ + +L    GRME ++ S  P  +VDYAHTPDALE  L   +   +G+LW VFGCGGDRD+ KRPIM K A  +AD++++T DNPR+E    I+ +I  G      V     R++AI  AL+KA+ +D++LIAGKGHE YQ IG  K  FSDQE V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81335888|sp|Q4QLG3.1|MURE_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase; AltName: Full=Meso-A2pm-adding enzyme; AltName: Full=Meso-diaminopimelate-adding enzyme; AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase; AltName: Full=UDP-MurNAc-tripeptide synthetase; AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase</Hit_def>
+  <Hit_accession>Q4QLG3</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.163</Hsp_bit-score>
+      <Hsp_score>949</Hsp_score>
+      <Hsp_evalue>9.66336e-123</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>287</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>485</Hsp_align-len>
+      <Hsp_qseq>KLTQLLE-PWIKRDIIDGTVSDIKNDSRLVKEGDLFVAYPGAASDGRLYIEKAVASGAVAVVYEPNNLPQGITLP--TGIPCIAIPQLAEKLGEIAKRFFNNPSQFLGLTGVTGTNGKTTIAYQLAQAHDLLGQHSAYIGTIGQGKVDALKPLENTTPDALCLQRLMHQYKEGGIKQVCMEVSSHALSQHRVDSLEFSQAIFTNLTLDHLDYHQTMQAYGAAKSRLFERAELQWAIINQDDD-----FQDLMSNVLKTHVKKVTYGMHQNCDVKALQWNMDITGTEIEVKSPWGHHLLKIKALGKFNIYNSLAVYSSLLASGYNPEKVVQVMAELKAAPGRMEIVA--QSPYVLVDYAHTPDALENVLITLKQIKKGRLWVVFGCGGDRDKTKRPIMGKAASMYADNIVITSDNPRSEDPEIILNEIACGIPASAPVSKLVNREEAIAYALRKAEHNDIILIAGKGHESYQQIGNTKHVFSDQEV</Hsp_qseq>
+      <Hsp_hseq>KLTALFNLPELKNDI---ELHNMVLDSRKVKAGDLFVAIKGHQVDGNQFIDSALHSGASAVVSETELSSEHLTVAFIRNVPVVKYYQLARHLSSLADVFYDSPSKNLTLVGVTGTNGKTTISQLLAQWAELLGHRAAVMGTIGNGLLGQIVEAKNTTGSAVEIQSSLSTFKHAGADFTSIEVSSHGLAQHRVEALHFKAAIFTNLTRDHLDYHQSMENYAAAKKRLFTELDTQIKVINADDEIGYQWLTELPDAIAVSMNADFKVGSHQW--MKAINIHYHFKGADITFESSWGNGVLHSPLIGAFNVSNLLLVMTTLLSFGYPLENLLATAKSLKGVCGRMEMIQYPNKPIVIVDYAHTPDALEKALIAAREHCQGELWCIFGCGGDRDRGKRPLMAQVAEQFAEKIIVTKDNPRTEPQSQIEADIVAGFKNMEKVGIIPDRAQAIQFAIESAVENDVILIAGKGHEHYQIIGSEVVHFSDQEI</Hsp_hseq>
+      <Hsp_midline>KLT L   P +K DI    + ++  DSR VK GDLFVA  G   DG  +I+ A+ SGA AVV E     + +T+     +P +   QLA  L  +A  F+++PS+ L L GVTGTNGKTTI+  LAQ  +LLG  +A +GTIG G +  +   +NTT  A+ +Q  +  +K  G     +EVSSH L+QHRV++L F  AIFTNLT DHLDYHQ+M+ Y AAK RLF   + Q  +IN DD+       +L   +  +       G HQ   +KA+  +    G +I  +S WG+ +L    +G FN+ N L V ++LL+ GY  E ++     LK   GRME++     P V+VDYAHTPDALE  LI  ++  +G LW +FGCGGDRD+ KRP+M + A  +A+ I++T DNPR+E    I  +I  G      V  + +R +AI +A+  A  ND+ILIAGKGHE YQ IG+    FSDQE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1171073|sp|P45060.1|MURE_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase; AltName: Full=Meso-A2pm-adding enzyme; AltName: Full=Meso-diaminopimelate-adding enzyme; AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase; AltName: Full=UDP-MurNAc-tripeptide synthetase; AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase</Hit_def>
+  <Hit_accession>P45060</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.163</Hsp_bit-score>
+      <Hsp_score>949</Hsp_score>
+      <Hsp_evalue>9.98234e-123</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>485</Hsp_align-len>
+      <Hsp_qseq>KLTQLLE-PWIKRDIIDGTVSDIKNDSRLVKEGDLFVAYPGAASDGRLYIEKAVASGAVAVVYEPNNLPQGITLPT--GIPCIAIPQLAEKLGEIAKRFFNNPSQFLGLTGVTGTNGKTTIAYQLAQAHDLLGQHSAYIGTIGQGKVDALKPLENTTPDALCLQRLMHQYKEGGIKQVCMEVSSHALSQHRVDSLEFSQAIFTNLTLDHLDYHQTMQAYGAAKSRLFERAELQWAIINQDDD-----FQDLMSNVLKTHVKKVTYGMHQNCDVKALQWNMDITGTEIEVKSPWGHHLLKIKALGKFNIYNSLAVYSSLLASGYNPEKVVQVMAELKAAPGRMEIVA--QSPYVLVDYAHTPDALENVLITLKQIKKGRLWVVFGCGGDRDKTKRPIMGKAASMYADNIVITSDNPRSEDPEIILNEIACGIPASAPVSKLVNREEAIAYALRKAEHNDIILIAGKGHESYQQIGNTKHVFSDQEV</Hsp_qseq>
+      <Hsp_hseq>KLTALFNLPELKNDI---ELHNMVLDSRKVKAGDLFVAIKGHQVDGNQFIDSALHSGASAVVSETELSSEHLTVAFIGNVPVVKYYQLAHHLSSLADVFYDSPSNNLTLVGVTGTNGKTTISQLLAQWAELLGHRAAVMGTIGNGLFGQIVEAKNTTGSAVEIQSSLSAFKHAGADFTSIEVSSHGLAQHRVEALHFKAAIFTNLTRDHLDYHQSMENYAAAKKRLFTELDTQIKVINADDEIGYQWLTELPDAIAVSMNADFKVGSHQW--MKAINIHYHFKGADITFESSWGNGVLHSPLIGAFNVSNLLLVMTTLLSFGYPLENLLATAKSLKGVCGRMEMIQYPNKPTVIVDYAHTPDALEKALIAAREHCQGELWCIFGCGGDRDRGKRPLMAQVAEQFAEKIIVTKDNPRTESQSQIETDIVAGFKNMEKVGIIPDRAQAIQFAIESAVENDVILIAGKGHEHYQIIGSEVVHFSDQEI</Hsp_hseq>
+      <Hsp_midline>KLT L   P +K DI    + ++  DSR VK GDLFVA  G   DG  +I+ A+ SGA AVV E     + +T+     +P +   QLA  L  +A  F+++PS  L L GVTGTNGKTTI+  LAQ  +LLG  +A +GTIG G    +   +NTT  A+ +Q  +  +K  G     +EVSSH L+QHRV++L F  AIFTNLT DHLDYHQ+M+ Y AAK RLF   + Q  +IN DD+       +L   +  +       G HQ   +KA+  +    G +I  +S WG+ +L    +G FN+ N L V ++LL+ GY  E ++     LK   GRME++     P V+VDYAHTPDALE  LI  ++  +G LW +FGCGGDRD+ KRP+M + A  +A+ I++T DNPR+E    I  +I  G      V  + +R +AI +A+  A  ND+ILIAGKGHE YQ IG+    FSDQE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|166224778|sp|A5UIQ7.1|MURE_HAEIG</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase; AltName: Full=Meso-A2pm-adding enzyme; AltName: Full=Meso-diaminopimelate-adding enzyme; AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase; AltName: Full=UDP-MurNAc-tripeptide synthetase; AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase</Hit_def>
+  <Hit_accession>A5UIQ7</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>2.47816e-122</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>485</Hsp_align-len>
+      <Hsp_qseq>KLTQLLE-PWIKRDIIDGTVSDIKNDSRLVKEGDLFVAYPGAASDGRLYIEKAVASGAVAVVYEPNNLPQGITLPT--GIPCIAIPQLAEKLGEIAKRFFNNPSQFLGLTGVTGTNGKTTIAYQLAQAHDLLGQHSAYIGTIGQGKVDALKPLENTTPDALCLQRLMHQYKEGGIKQVCMEVSSHALSQHRVDSLEFSQAIFTNLTLDHLDYHQTMQAYGAAKSRLFERAELQWAIINQDDD-----FQDLMSNVLKTHVKKVTYGMHQNCDVKALQWNMDITGTEIEVKSPWGHHLLKIKALGKFNIYNSLAVYSSLLASGYNPEKVVQVMAELKAAPGRMEIVA--QSPYVLVDYAHTPDALENVLITLKQIKKGRLWVVFGCGGDRDKTKRPIMGKAASMYADNIVITSDNPRSEDPEIILNEIACGIPASAPVSKLVNREEAIAYALRKAEHNDIILIAGKGHESYQQIGNTKHVFSDQEV</Hsp_qseq>
+      <Hsp_hseq>KLTALFNLPELKNDI---ELHNMVLDSRKVKAGDLFVAIKGHQVDGNQFIDSALHSGASAVVSETELSSEHLTVEFIGNVPVVKYHQLARHLSSLADVFYDSPSKNLTLVGVTGTNGKTTISQLLAQWAELLGHRAAVMGTIGNGLFRQIVEAKNTTGSAVEIQSSLSTFKHAGADFTSIEVSSHGLAQHRVEALHFKAAIFTNLTRDHLDYHQSMENYAAAKKRLFTELDTQIKVINADDEIGYQWLTELPDAIAVSMNADFKVGSHQW--MKAINIHYHFKGADITFESSWGNGVLHSPLIGAFNVSNLLLVMTTLLSFGYPLENLLATAKSLKGVCGRMEMIQYPNKPTVIVDYAHTPDALEKALIAAREHCQGELWCIFGCGGDRDRGKRPLMAQIAEQFAEKIIVTKDNPRTEPQSQIEADIVAGFKNMEKVGIIPDRAQAIQFAIESAVENDVILIAGKGHEHYQIIGSEVVHFSDQEI</Hsp_hseq>
+      <Hsp_midline>KLT L   P +K DI    + ++  DSR VK GDLFVA  G   DG  +I+ A+ SGA AVV E     + +T+     +P +   QLA  L  +A  F+++PS+ L L GVTGTNGKTTI+  LAQ  +LLG  +A +GTIG G    +   +NTT  A+ +Q  +  +K  G     +EVSSH L+QHRV++L F  AIFTNLT DHLDYHQ+M+ Y AAK RLF   + Q  +IN DD+       +L   +  +       G HQ   +KA+  +    G +I  +S WG+ +L    +G FN+ N L V ++LL+ GY  E ++     LK   GRME++     P V+VDYAHTPDALE  LI  ++  +G LW +FGCGGDRD+ KRP+M + A  +A+ I++T DNPR+E    I  +I  G      V  + +R +AI +A+  A  ND+ILIAGKGHE YQ IG+    FSDQE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166224777|sp|A5UCX3.1|MURE_HAEIE</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase; AltName: Full=Meso-A2pm-adding enzyme; AltName: Full=Meso-diaminopimelate-adding enzyme; AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase; AltName: Full=UDP-MurNAc-tripeptide synthetase; AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase</Hit_def>
+  <Hit_accession>A5UCX3</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>9.28135e-122</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>485</Hsp_align-len>
+      <Hsp_qseq>KLTQLLE-PWIKRDIIDGTVSDIKNDSRLVKEGDLFVAYPGAASDGRLYIEKAVASGAVAVVYEPNNLPQGITLPT--GIPCIAIPQLAEKLGEIAKRFFNNPSQFLGLTGVTGTNGKTTIAYQLAQAHDLLGQHSAYIGTIGQGKVDALKPLENTTPDALCLQRLMHQYKEGGIKQVCMEVSSHALSQHRVDSLEFSQAIFTNLTLDHLDYHQTMQAYGAAKSRLFERAELQWAIINQDDD-----FQDLMSNVLKTHVKKVTYGMHQNCDVKALQWNMDITGTEIEVKSPWGHHLLKIKALGKFNIYNSLAVYSSLLASGYNPEKVVQVMAELKAAPGRMEIVA--QSPYVLVDYAHTPDALENVLITLKQIKKGRLWVVFGCGGDRDKTKRPIMGKAASMYADNIVITSDNPRSEDPEIILNEIACGIPASAPVSKLVNREEAIAYALRKAEHNDIILIAGKGHESYQQIGNTKHVFSDQEV</Hsp_qseq>
+      <Hsp_hseq>KLTALFNLPELKNDI---ELHNMVLDSRKVKAGDLFVAIKGHQVDGNQFIDSALHSGASAVVSETELSSEHLTVAFIGNVPVVKYHQLARHLSSLADVFYDSPSKNLTLVGVTGTNGKTTISQLLAQWAELLGLRAAVMGTIGNGLFGQIVEAKNTTGSAVEIQSSLSTFKHAGADFTSIEVSSHGLAQHRVEALHFKAAIFTNLTRDHLDYHQSMENYAAAKKRLFTELDTQIKVINADDEIGYQWLTKLPDAIAVSMNADFKVGSHQW--MKAINIHYHFKGADITFESSWGNGVLHSPLIGAFNVSNLLLVMTTLLSFGYPLENLLATAKSLKGVCGRMEMIQYPNKPTVIVDYAHTPDALEKALIAAREHCQGELWCIFGCGGDRDRGKRPLMAQVAEQFAEKIIVTKDNPRTEPQSQIEADIVAGFKNMEKVGIIPDRAQAIQFAIESAVENDVILIAGKGHEHYQIIGSEVVHFSDQEI</Hsp_hseq>
+      <Hsp_midline>KLT L   P +K DI    + ++  DSR VK GDLFVA  G   DG  +I+ A+ SGA AVV E     + +T+     +P +   QLA  L  +A  F+++PS+ L L GVTGTNGKTTI+  LAQ  +LLG  +A +GTIG G    +   +NTT  A+ +Q  +  +K  G     +EVSSH L+QHRV++L F  AIFTNLT DHLDYHQ+M+ Y AAK RLF   + Q  +IN DD+        L   +  +       G HQ   +KA+  +    G +I  +S WG+ +L    +G FN+ N L V ++LL+ GY  E ++     LK   GRME++     P V+VDYAHTPDALE  LI  ++  +G LW +FGCGGDRD+ KRP+M + A  +A+ I++T DNPR+E    I  +I  G      V  + +R +AI +A+  A  ND+ILIAGKGHE YQ IG+    FSDQE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|38257959|sp|Q87WY0.1|MURE_PSESM</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase; AltName: Full=Meso-A2pm-adding enzyme; AltName: Full=Meso-diaminopimelate-adding enzyme; AltName: Full=UDP-MurNAc-L-Ala-D-Glu:meso-diaminopimelate ligase; AltName: Full=UDP-MurNAc-tripeptide synthetase; AltName: Full=UDP-N-acetylmuramyl-tripeptide synthetase</Hit_def>
+  <Hit_accession>Q87WY0</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.688</Hsp_bit-score>
+      <Hsp_score>927</Hsp_score>
+      <Hsp_evalue>2.21807e-119</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>473</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>471</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>DGTVSDIKNDSRLVKEGDLFVAYPGAASDGRLYIEKAVASGAVAVVYEPNNLPQGITLP-TGIPCIAIPQLAEKLGEIAKRFFNNPSQFLGLTGVTGTNGKTTIAYQLAQAHDLLGQHSAYIGTIGQGKVDALKPLENTTPDALCLQRLMHQYKEGGIKQVCMEVSSHALSQHRVDSLEFSQAIFTNLTLDHLDYHQTMQAYGAAKSRLFERAELQWAIINQDDDFQDLMSNVLKTHVKKVTYG-MHQNCDVKALQWNMDITGTEIEVKSPWGHHLLKIKALGKFNIYNSLAVYSSLLASGYNPEKVVQVMAELKAAPGRMEIV--AQSPYVLVDYAHTPDALENVLITLKQIKKGRLWVVFGCGGDRDKTKRPIMGKAASMYADNIVITSDNPRSEDPEIILNEIACGIPASAPVSKLVNREEAIAYALRKAEHNDIILIAGKGHESYQQIGNTKHVFSD</Hsp_qseq>
+      <Hsp_hseq>DPLIRELTLDSRNVRPGDLFLAVPGIKVDGRAHIADALKRGAAAVAYE---VEGATVLPITDVPLIPVKGLAAQLSDVAGRFYGDPSRSLNLVGVTGTNGKTSVTQLVAQALDALGQRCGIVGTLGTGFYGALQSGRHTTPDPIAVQAALTDLRKAGARAVAMEVSSHGLDQGRATALAFDVAVLTNLSRDHLDYHGTMEAYAAAKAKLFAWPNLNCRVINLDDDFGRELAG-LKQESRLITYSQLDSSAYLYCRDAKFDDDGVRATLVTPQGEHFLRSSLLGRFNLSNVLAAVGALLGLDYALDEILKVLPKLEGPVGRMQRLGGADKPLVVVDYAHTPDALEKVLEALRPHAKGRLLCLFGCGGDRDRGKRPLMAEVVERLADGVWVTDDNPRSEAPTNIFDDIRPGFVTADKVRFIEGRGQAIAELIASATVDDVVVLAGKGHEDYQEIDGKRQPFSD</Hsp_hseq>
+      <Hsp_midline>D  + ++  DSR V+ GDLF+A PG   DGR +I  A+  GA AV YE   +     LP T +P I +  LA +L ++A RF+ +PS+ L L GVTGTNGKT++   +AQA D LGQ    +GT+G G   AL+   +TTPD + +Q  +   ++ G + V MEVSSH L Q R  +L F  A+ TNL+ DHLDYH TM+AY AAK++LF    L   +IN DDDF   ++  LK   + +TY  +  +  +       D  G    + +P G H L+   LG+FN+ N LA   +LL   Y  +++++V+ +L+   GRM+ +  A  P V+VDYAHTPDALE VL  L+   KGRL  +FGCGGDRD+ KRP+M +     AD + +T DNPRSE P  I ++I  G   +  V  +  R +AIA  +  A  +D++++AGKGHE YQ+I   +  FSD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>468734</Statistics_db-num>
+      <Statistics_db-len>176603381</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

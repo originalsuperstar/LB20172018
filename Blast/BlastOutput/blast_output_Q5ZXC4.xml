@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_48107</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5ZXC4 | lpg0808 length= 363</BlastOutput_query-def>
+  <BlastOutput_query-len>363</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>3</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_48107</Iteration_query-ID>
+  <Iteration_query-def>Q5ZXC4 | lpg0808 length= 363</Iteration_query-def>
+  <Iteration_query-len>363</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|81370965|sp|Q5X6U5.1|MURG_LEGPA</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase &gt;gi|81377944|sp|Q5ZXC4.1|MURG_LEGPH RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase</Hit_def>
+  <Hit_accession>Q5X6U5</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>737.643</Hsp_bit-score>
+      <Hsp_score>1903</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MSPSIVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKEQAHVQTPRIV</Hsp_qseq>
+      <Hsp_hseq>MSPSIVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKEQAHVQTPRIV</Hsp_hseq>
+      <Hsp_midline>MSPSIVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKEQAHVQTPRIV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81369055|sp|Q5WY98.1|MURG_LEGPL</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase</Hit_def>
+  <Hit_accession>Q5WY98</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>736.487</Hsp_bit-score>
+      <Hsp_score>1900</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MSPSIVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKEQAHVQTPRIV</Hsp_qseq>
+      <Hsp_hseq>MSPSIVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQALQDVMRKKDEIDNKIKALKIESATDKIVAIIKEQAHVQTPRIV</Hsp_hseq>
+      <Hsp_midline>MSPSIVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQA+QDVMRKKDEIDNKIKALKIESATDKIVAIIKEQAHVQTPRIV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|166230654|sp|A5IGA6.1|MURG_LEGPC</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase</Hit_def>
+  <Hit_accession>A5IGA6</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>714.916</Hsp_bit-score>
+      <Hsp_score>1844</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>353</Hsp_identity>
+      <Hsp_positive>356</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MSPSIVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKEQAHVQTPRIV</Hsp_qseq>
+      <Hsp_hseq>MSPSIVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPMDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTQISSQLLTGNPMKGLEVCRFISSKTCLLVMGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKEQAHVQTPRIV</Hsp_hseq>
+      <Hsp_midline>MSPSIVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEP+DIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGT I  QLLTGN MKGLE+C F SSK CLLV+GGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKEQAHVQTPRIV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|259509798|sp|C4Z1B5.1|MURG_EUBE2</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase</Hit_def>
+  <Hit_accession>C4Z1B5</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>4.18533e-131</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>IVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKEQA</Hsp_qseq>
+      <Hsp_hseq>IVLTGGGTAGHVTPNIALLPSLKEAGYEVFYIGSYTGIEKTLIEDLGIPYYGISSGKLRRYRSLKNLSDPFRVLHGLFQAKRLMKKIKPDIVFSKGGFVSVPVVLAAGSRHIPVIIHESDMTPGLANKIAMRKATKICCNFPETLKYLP-EGKAVLTGSPIRQELLLGNKAAGLDLCNFTTDKPIILVVGGSTGAVHVNDAVRSILPELLKDFQVVHLCGKGKMDDSLNGTPGYVQFEYISEQMRDLFAISSIVISRAGANAICELLALKKPNLLIPLSANASRGDQILNANSFKEHGYSMVLTEEDMNKDTLLAAVRKLYADRHQYIINMEKSEQQDSIDKIMNLIKDNS</Hsp_hseq>
+      <Hsp_midline>IV TGGGTAGHVTPNIAL+   ++ G+ V YIGS +GIEK +IE L IP++G+SSGKLRRY SLKNL DPF+++ G+ Q+  L  KIKPD+VFSKGGFV+ PVV+ A    IPV+ HESDM+PGLAN+++     KIC  F    KY   + K  +TG+PIRQ+LL GN+  GL+LC F + KP +LVVGGS GA  +N  +RS L +L  +FQV+HLCGKGK+D SL G  GY QFEY +E++ DLFA SS+VISRAGAN++ E+LAL KP++LIP+S+  SRGDQI NA  F+  G S+V+ +E +  D LL AV+ +   + +    ++  + + + DKI+ +IK+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|90109819|sp|Q893R7.2|MURG_CLOTE</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase</Hit_def>
+  <Hit_accession>Q893R7</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.407</Hsp_bit-score>
+      <Hsp_score>973</Hsp_score>
+      <Hsp_evalue>5.11745e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>MSPSIVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKE</Hsp_qseq>
+      <Hsp_hseq>MKKKIILTGGGTAGHVTPNISLIPKLKELGYEVQYIGTKDGIEKSLIKKEGIKYHEISSGKLRRYFDLKNFTDPFKVLKGIMEARKIIKKEKPNIVFSKGGFVAVPVVIGAYLNKVPVISHESDMTPGLANKLSTPYCNKVCVTFPETLKYIKK-DKGVLTGTPIREELFLGNEEKGKKICGFKDNKPIVLLVGGSLGSKILNNLIRENIEELLKKFNIIHICGKGNIEKTLENKEGYAQFEYVKEELPHFMKASNIVISRAGANSIFELLALAKPNLLVPLSKKASRGDQILNAKSFEKNGYSLVLEEEELSKKIFLDKLNYLYENREKYIKNMKNSSFKNGIDNIIDLIEK</Hsp_hseq>
+      <Hsp_midline>M   I+ TGGGTAGHVTPNI+LI + ++ G+ V+YIG+  GIEK +I+   I +H +SSGKLRRYF LKN  DPFK++ GI+++  +  K KP++VFSKGGFVA PVV+GA+LN++PV++HESDM+PGLAN+LS P+ NK+C+TF    KY K+ DK  +TGTPIR++L  GN  KG ++CGF  +KP +L+VGGSLG+  +N+ IR  +++L  +F +IH+CGKG ++ +L   EGY QFEY  EEL     AS++VISRAGANS++E+LAL KP++L+P+S + SRGDQI NA+ F+  G S+V+++E L   + L  +  +   +++    +K    ++  D I+ +I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|259509793|sp|C3L230.1|MURG_CLOB6</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase</Hit_def>
+  <Hit_accession>C3L230</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>1.76584e-129</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>IVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKE</Hsp_qseq>
+      <Hsp_hseq>IIMTGGGTAGHVTPNLALVPELKKLGYEIKYIGSIEGIERKIIEKEGIEYFPISSGKLRRYFDLKNFSDPFKVLKGVFQAKKIIKKEKPDIVFSKGGFVTVPVVIAAHLNKIPVIAHESDITPGLANKLATPYCTRVCVTFPESVKHIK-GDKAVLTGTPIRRELLEGNKLEGIKLCGFKDNKPILLIIGGSLGSKIINGIVRKNLDNILSKFNIIHICGKSNLDENLENRKGYAQFEYVNEELPDLMKASDLVISRAGANVIYELLALKKPNLLIPLSKKSSRGDQILNAASFEKSGYSLVLKEEELEDKTLMKKLNHLYENRNVYINNMSKSKMDNGVKNITELIKK</Hsp_hseq>
+      <Hsp_midline>I+ TGGGTAGHVTPN+AL+ E +K G+ ++YIGS+ GIE+++IE   I +  +SSGKLRRYF LKN  DPFK++ G+ Q+  +  K KPD+VFSKGGFV  PVV+ A LN+IPV+AHESD++PGLAN+L+ P+  ++C+TF    K+ K  DK  +TGTPIR++LL GN+++G++LCGF  +KP LL++GGSLG+  IN  +R  L  + S+F +IH+CGK  LD +L   +GY QFEY NEEL DL  AS +VISRAGAN +YE+LAL KP++LIP+S + SRGDQI NA  F+  G S+V+++E L+   L++ +  +   ++   N +   K+++    I  +IK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|166230711|sp|A7GGX9.1|MURG_CLOBL</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase &gt;gi|229485696|sp|B1IKH3.1|MURG_CLOBK RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase</Hit_def>
+  <Hit_accession>A7GGX9</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>1.8446e-129</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>IVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKE</Hsp_qseq>
+      <Hsp_hseq>IIMTGGGTAGHVTPNLALVPELKKSGYEIKYIGSIEGIERKIIEKEGIEYFPISSGKLRRYFDLKNFSDPFKVLKGVFQAKKIIKREKPDIVFSKGGFVTVPVVIAAHLNKIPVIAHESDITPGLANKLATPYCTRVCVTFPESVKHIK-GDKAVLTGTPIRRELLEGNKLEGIKLCGFKDNKPILLIIGGSLGSKIINEIVRKNLDNILSKFNIIHICGKSNLDENLENRKGYAQFEYVNEELPDLMKASDLVISRAGANVIYELLALKKPNLLIPLSKKSSRGDQILNAASFEKSGYSLVLKEEELEDKTLMKKLNYLYENRNVYINNMSKSKMDNGVKNITELIKK</Hsp_hseq>
+      <Hsp_midline>I+ TGGGTAGHVTPN+AL+ E +K G+ ++YIGS+ GIE+++IE   I +  +SSGKLRRYF LKN  DPFK++ G+ Q+  +  + KPD+VFSKGGFV  PVV+ A LN+IPV+AHESD++PGLAN+L+ P+  ++C+TF    K+ K  DK  +TGTPIR++LL GN+++G++LCGF  +KP LL++GGSLG+  IN  +R  L  + S+F +IH+CGK  LD +L   +GY QFEY NEEL DL  AS +VISRAGAN +YE+LAL KP++LIP+S + SRGDQI NA  F+  G S+V+++E L+   L++ +  +   ++   N +   K+++    I  +IK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|229485697|sp|B1KYH7.1|MURG_CLOBM</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase</Hit_def>
+  <Hit_accession>B1KYH7</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.711</Hsp_bit-score>
+      <Hsp_score>966</Hsp_score>
+      <Hsp_evalue>4.97781e-129</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>IVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKE</Hsp_qseq>
+      <Hsp_hseq>IIMTGGGTAGHVTPNLALVPELKKLGYEIKYIGSIEGIERKIIEREGIEYFPISSGKLRRYFDLKNFSDPFKVLKGVFQAKKIIKREKPDIVFSKGGFVTVPVVIAAHLNKIPVIAHESDITPGLANKLATPYCTRVCVTFPESVKHIK-GDKAVLTGTPIRRELLEGNKLEGIKLCGFKDNKPILLIIGGSLGSKVINEIVRKNLDNILSKFNIIHICGKSNLDENLENRKGYVQFEYVNEELPDLMKASDLVISRAGANVIYELLALKKPNLLIPLSKKSSRGDQILNAASFEKSGYSLVLKEEELEDKTLMKKLNYLYENRNVYINNMSKSKMDNGVKNITELIKK</Hsp_hseq>
+      <Hsp_midline>I+ TGGGTAGHVTPN+AL+ E +K G+ ++YIGS+ GIE+++IE   I +  +SSGKLRRYF LKN  DPFK++ G+ Q+  +  + KPD+VFSKGGFV  PVV+ A LN+IPV+AHESD++PGLAN+L+ P+  ++C+TF    K+ K  DK  +TGTPIR++LL GN+++G++LCGF  +KP LL++GGSLG+  IN  +R  L  + S+F +IH+CGK  LD +L   +GY QFEY NEEL DL  AS +VISRAGAN +YE+LAL KP++LIP+S + SRGDQI NA  F+  G S+V+++E L+   L++ +  +   ++   N +   K+++    I  +IK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166230709|sp|A7FX11.1|MURG_CLOB1</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase &gt;gi|166230710|sp|A5I5J5.1|MURG_CLOBH RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase</Hit_def>
+  <Hit_accession>A7FX11</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.941</Hsp_bit-score>
+      <Hsp_score>964</Hsp_score>
+      <Hsp_evalue>1.01153e-128</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>IVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKE</Hsp_qseq>
+      <Hsp_hseq>IIMTGGGTAGHVTPNLALVPELKKLGYEIKYIGSIEGIERKIIEKEGIEYFPISSGKLRRYFDLKNFSDPFKVLKGVFQAKKIIKREKPDIVFSKGGFVTVPVVIAAHLNKIPVIAHESDITPGLANKLATPYCTRVCVTFPESVKHIK-GDKAVLTGTPIRRELLEGNKLEGIKLCGFKDNKPILLIIGGSLGSKIINEIVRKNLDNILSKFNIIHICGKSNLDENLENRKGYAQFEYVNEELPDLMKASDLVISRAGANVIYELLALKKPNLLIPLSKKSSRGDQILNAASFEKSGYSLVLKEEELEDKTLIKKLNYLYENRNVYINNMSKSKMDNGVKNITELIKK</Hsp_hseq>
+      <Hsp_midline>I+ TGGGTAGHVTPN+AL+ E +K G+ ++YIGS+ GIE+++IE   I +  +SSGKLRRYF LKN  DPFK++ G+ Q+  +  + KPD+VFSKGGFV  PVV+ A LN+IPV+AHESD++PGLAN+L+ P+  ++C+TF    K+ K  DK  +TGTPIR++LL GN+++G++LCGF  +KP LL++GGSLG+  IN  +R  L  + S+F +IH+CGK  LD +L   +GY QFEY NEEL DL  AS +VISRAGAN +YE+LAL KP++LIP+S + SRGDQI NA  F+  G S+V+++E L+   L++ +  +   ++   N +   K+++    I  +IK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|254766074|sp|C1FUF9.1|MURG_CLOBJ</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase; AltName: Full=Undecaprenyl-PP-MurNAc-pentapeptide-UDPGlcNAc GlcNAc transferase</Hit_def>
+  <Hit_accession>C1FUF9</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.17</Hsp_bit-score>
+      <Hsp_score>962</Hsp_score>
+      <Hsp_evalue>1.72629e-128</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>IVFTGGGTAGHVTPNIALIKEFRKEGWNVEYIGSVSGIEKEMIEPLDIPFHGVSSGKLRRYFSLKNLLDPFKIVLGIIQSSLLFYKIKPDVVFSKGGFVAFPVVVGAWLNRIPVVAHESDMSPGLANRLSFPFVNKICLTFDAGKKYFKRQDKIEVTGTPIRQQLLTGNRMKGLELCGFNSSKPCLLVVGGSLGAGSINSCIRSALKQLTSEFQVIHLCGKGKLDSSLVGVEGYCQFEYANEELADLFAASSVVISRAGANSLYEILALGKPHILIPISSQVSRGDQIQNARYFQGLGISVVIQDELLKADVLLQAVQDVMRKKDEIDNKIKALKIESATDKIVAIIKE</Hsp_qseq>
+      <Hsp_hseq>IIMTGGGTAGHVTPNLALVPELKKLGYEIKYIGSIEGIERKIIEKEGIEYFPISSGKLRRYFDLKNFSDPFKVLKGVFQAKKIIKREKPDIVFSKGGFVTVPVVIAAHLNKIPVIAHESDITPGLANKLATPYCTRVCVTFPESVKHIK-GDKAVLTGTPIRRELLEGNKLEGIKLCGFKDNKPILLIIGGSLGSKIINEIVRKNLDNILSKFNIIHICGKSNLDENLENRKGYAQFEYVNEELPDLMKASDLVISRAGANVIYELLALKKPNLLIPLSKKSSRGDQILNAASFEKSGYSLVLKEEELEDKNLMKKLNYLYENRNVYINNMSKSKMDNGVKNITELIKK</Hsp_hseq>
+      <Hsp_midline>I+ TGGGTAGHVTPN+AL+ E +K G+ ++YIGS+ GIE+++IE   I +  +SSGKLRRYF LKN  DPFK++ G+ Q+  +  + KPD+VFSKGGFV  PVV+ A LN+IPV+AHESD++PGLAN+L+ P+  ++C+TF    K+ K  DK  +TGTPIR++LL GN+++G++LCGF  +KP LL++GGSLG+  IN  +R  L  + S+F +IH+CGK  LD +L   +GY QFEY NEEL DL  AS +VISRAGAN +YE+LAL KP++LIP+S + SRGDQI NA  F+  G S+V+++E L+   L++ +  +   ++   N +   K+++    I  +IK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>468734</Statistics_db-num>
+      <Statistics_db-len>176603381</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

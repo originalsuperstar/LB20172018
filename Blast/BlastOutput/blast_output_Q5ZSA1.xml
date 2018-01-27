@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_131003</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5ZSA1 | lpg2618 length= 461</BlastOutput_query-def>
+  <BlastOutput_query-len>461</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>3</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_131003</Iteration_query-ID>
+  <Iteration_query-def>Q5ZSA1 | lpg2618 length= 461</Iteration_query-def>
+  <Iteration_query-len>461</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2507071|sp|P11880.2|MURF_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase; AltName: Full=D-alanyl-D-alanine-adding enzyme; AltName: Full=UDP-MurNAc-pentapeptide synthetase</Hit_def>
+  <Hit_accession>P11880</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.479</Hsp_bit-score>
+      <Hsp_score>833</Hsp_score>
+      <Hsp_evalue>4.39524e-106</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>ADIT--GVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSHA--TKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFS-SLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPD--TTVLVKGSRSSAMENVVHRL</Hsp_qseq>
+      <Hsp_hseq>ADITLDAVTTDTRKLTPGCLFVALKGERFDAHDFADQAKAGGAGALLVSRPLD-IDLPQLIVKDTRLAFGELAAWVRQQVPARVVALTGSSGKTSVKEMTAAILSQCGNTLYTAGNLNNDIGVPMTLLRLTPEYDYAVIELGANHQGEIAWTVSLTRPEAALVNNLAAAHLEGFGSLAGVAKAKGEIFSGLPENGIAIMNADNNDWLNWQSVIGSRKVWRFSPNAANSDFTATNIHVTSHG-TEFTLQTPTGSVDVLLPLPGRHNIANALAAAALSMSVGATLDAIKAGLANLKAVPGRLFPIQLAENQLLLDDSYNANVGSMTAAVQVLAEMPGYRVLVVGDMAELGAESEACHVQVGEAAKAAGIDRVLSVGKQSHAISTASGV-GEHFADKTALITRLKLLIAEQQVITILVKGSRSAAMEEVVRAL</Hsp_hseq>
+      <Hsp_midline>ADIT   V+ DTR L PG LF A+ GERFD HDF  +A+A GA A +V+R +D + +PQ +V    +A  ++AA  RQ++   ++ALTGS+GKT+VKEM A IL Q  +   T GNLNN IGVP+++L L  ++ YAV ELGANH GEIA TV + +P+ +L+NN+A AH+EGFGS+ GVA++KGEI  GL   G+AI+N D+     W  +I  +K+ RFS +   +D  A +I + +HG   FTL  P   V++ L +PG HN+ NALAAAA   +VG + + I+ GLA+   V GR+  +       ++DD+YNAN+ S+  A++VL+  PG ++ V GDM ELG  +   H +VG AA+  GID+++S G  S   S A G  G+HF  +  LI  +K  +      T+LVKGSRS+AME VV  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1171074|sp|P45061.1|MURF_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase; AltName: Full=D-alanyl-D-alanine-adding enzyme; AltName: Full=UDP-MurNAc-pentapeptide synthetase</Hit_def>
+  <Hit_accession>P45061</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.701</Hsp_bit-score>
+      <Hsp_score>818</Hsp_score>
+      <Hsp_evalue>1.02694e-103</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>436</Hsp_align-len>
+      <Hsp_qseq>NADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQP---SHA---TKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIE----VVKNDLTPDTTVLV--KGSRSSAMENVVHRL</Hsp_qseq>
+      <Hsp_hseq>NVQVEKINTDTRKSVSNSLFFALKGEKFDAHQYLDQAVSQGALALVVQQENSSISVPQLVVKDTRIALGELAKWLREKINPRTVAMTGSSGKTTVKEMTASILQHTAADSEAVLFTNGNFNNDIGVPLTLLRLTEKHRFAVIELGANHQNEINYTTKLVQPNAALINNIAPAHLEGFGSLAGVVQAKGEIYRGLTKNGVAIINAEHNHLDIWQKEISNHAIQYFNG---KDYSAKNIHHTSQG-STFTLISPQGEIEITLPYLGEHNVKNALAATALAMNVGATLTDVKAGLEQRSQVKGRLFPIQVTPNLLLLDDTYNANKDSLCAAIDVLKGYDAFRILCVGDMKELGENSLAIHREVGQYINLVNLDLVCSYGNESAVISEAV--SGKHFTDKTEMVDFLVPLIENQLQQNKKVVVLGKGSRSMKMEDVIYSL</Hsp_hseq>
+      <Hsp_midline>N  +  ++ DTR     +LFFA+ GE+FD H ++ +A ++GA A VV +    + +PQ VV    +AL ++A   R++++   +A+TGS+GKTTVKEM A+IL      S A   T GN NN IGVPL++L L ++HR+AV ELGANH  EI +T  +VQP+ +LINNIAPAH+EGFGS+ GV ++KGEI++GL+  GVAI+N +  +   W   I++  I  F+     D  A++I   + G + FTL+ P   +EI L   G HNV+NALAA A    VG +  D++ GL     VKGR+  +       ++DDTYNAN  S+  A++VL G    +I   GDM ELGE +   HREVG     + +D + S G  S + S+A    G+HF  + E+++    +++N L  +  V+V  KGSRS  ME+V++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|11133476|sp|P57315.1|MURF_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase; AltName: Full=D-alanyl-D-alanine-adding enzyme; AltName: Full=UDP-MurNAc-pentapeptide synthetase</Hit_def>
+  <Hit_accession>P57315</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>1.62465e-95</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>456</Hsp_align-len>
+      <Hsp_qseq>VFSTSQNTMNLITIASLLSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSH--ATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFS--SLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDL--TPDTTVLVKGSRSSAMENVVHRLVQ</Hsp_qseq>
+      <Hsp_hseq>MISLSLKKIALITNGTLYGADLLINE----IVIDTKKIIPGCLFIALIGRKFDAHIFIHDALKKKCAAFVTQKNIKP-HVPYIIVENTSIALGQIAGWVRKKTKAKILAITGSCGKTSVKEMTASILRKNGNTISTIDNLNNNIGVPMTLLQLKQEHKYGVIELGASKPGEIAYTSNISQPDIILINNIHCAHLQGFKSLLGVSKAKSEIFSGLKPNSTVIINLDSHHFSQWKKDIKNSNILFFSIKKKKYSNFFCSNIKIHIHGTS-FTMHTPCGKINISLPFLGYQNISNALAASAFSFALKIPLKKIKIGLLDTPIVSKRLESIILEPNKILIDDTYNSNVSSMISAIKVLERMPGYKILVTGDMAELGENSMMYHQMIGNTANSSAINKIFSIGDMSSEITKIFN-NGKHFLNKKKLSEYLKNVFLKKKKITILVKGSRSTKMEKVVEDLIK</Hsp_hseq>
+      <Hsp_midline>+ S S   + LIT  +L      IN     + IDT+ + PG LF A++G +FD H FI +A  K  +A V  ++I   H+P  +V +  +AL +IA   R++    I+A+TGS GKT+VKEM A+IL +  +  +T  NLNN+IGVP+++L L ++H+Y V ELGA+ PGEIA+T  I QPD+ LINNI  AH++GF S+ GV+++K EI  GL P    I+N D  +   W   I +  IL FS      ++ +  +I++  HG + FT+  P  ++ I L   G  N+ NALAA+A  +A+ I    I+ GL     V  R+  +  +    +IDDTYN+N+ S+++A++VL   PG KI V GDM ELGE +  +H+ +G  A    I+K+ S G  S   ++ F   G+HF ++++L E +KN        T+LVKGSRS+ ME VV  L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|46396400|sp|Q89AQ1.1|MURF_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase; AltName: Full=D-alanyl-D-alanine-adding enzyme; AltName: Full=UDP-MurNAc-pentapeptide synthetase</Hit_def>
+  <Hit_accession>Q89AQ1</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>9.55368e-95</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>455</Hsp_align-len>
+      <Hsp_qseq>TMNLITIASLLS--QSCQINADITGVSI-----DTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVH-IPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPSH--ATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDT--TVLVKGSRSSAMENVVHRLVQ</Hsp_qseq>
+      <Hsp_hseq>SINLIKLTSITNGILYCSNYATLHSISIHSITTDTRKITPKCLFIALIGKNFDAHMFVNEAISKGAAALLLEKQCYPKNVIPQIIVQNTTIALGKIASWIRDQTNATVIAITGSSGKTSVKEMTSSILKNCGNTISTFQNLNNNIGVPLTLLNLNKSHKYAILELGANYPKDIEYTTKITKPNIALINNIYHSHLAGFKSLFGVAQAKQEIFLGLRKNGIAIYNKDSNYWSKWKKNLLTQKIINFSIKKNSTIFASNITTSNQG-SKFKIHSPNGEIYVTLPLLGYHNISNALAAATIAISINIPLEIIKIGLSSLPILKNRLQIIRLNKYKTIINDTYNANTASMIVAIKILENISGYKLFVAGDMLELGKNDVLYHKIIGNTIYNSNINEVFSIGKLSKEISIA-SKKGHHFYNSDELLKNLKNKLLNKKIITILVKASRSEKLDVIVEQLIK</Hsp_hseq>
+      <Hsp_midline>++NLI + S+ +    C   A +  +SI     DTR + P  LF A++G+ FD H F+ EA +KGA+A ++ +     + IPQ +V +  +AL KIA+  R + +  +IA+TGS+GKT+VKEM ++IL    +  +T  NLNN+IGVPL++L LNK H+YA+ ELGAN+P +I +T  I +P+++LINNI  +H+ GF S+ GVA++K EI  GL   G+AI N D  Y   W   +  +KI+ FS    + I+A +I     G + F +  PN  + + L + G HN+ NALAAA    ++ I    I+ GL+    +K R+ ++      T+I+DTYNAN  S++ A+++L    G K+FV GDM ELG+    +H+ +G       I+++ S G  S+  S A  + G HF + +EL++ +KN L      T+LVK SRS  ++ +V +L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1171075|sp|P45450.1|MURF_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase; AltName: Full=D-alanyl-D-alanine-adding enzyme; AltName: Full=UDP-MurNAc-pentapeptide synthetase</Hit_def>
+  <Hit_accession>P45450</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.631</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>2.65194e-66</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>457</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>LSQSCQINADITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGV--HIPQFVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPS--HATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAY-----AHFWDDLIADKKILRFSSLHPADIY----AQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPG-RKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGG---QHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLV</Hsp_qseq>
+      <Hsp_hseq>LSEDIRIN----NICTDTRSLVSGDLFLALRGESFDGHSFIPQALTAGAIAVVTDRPVEGLGETVAQFLVEDTLVAYQHIAAGWRQRFTIPIIGVTGSVGKTTTKELIAAVLSQFGNVHKTRANYNNEIGVPKTLLELSPDHDFAIVEMAMRGRGQIALLADIAKPTIGLITNVGTAHIGLLGSELAIAEAKCELLAHQPPESTAILNRDNALLMETAQRFW-----QGKTITY-GLEGGDVHGTVDGENLILDG--------------VSLPLPLAGVHNASNYLAAIALAQCLGLDWQQLQSGLT-VELPKGRARRYQWGQDVVLLDETYNDGLESMLASLDLLANTPGKRRLAVLGAMKELGDYGPTFHQRVGAKVKALGLDGLFLLANDPNTDAIAAGANGVETQSFSDGPSLVAALKTTLQPGDRLLFKASNSVGLGAVVSQLL</Hsp_hseq>
+      <Hsp_midline>LS+  +IN     +  DTR+L  G+LF A+ GE FDGH FI +A   GA A V +R ++G+   + QF+V   L+A   IAA  RQ  + PII +TGS GKTT KE+IA +L Q    H T+ N NN IGVP ++L L+  H +A+ E+     G+IA    I +P + LI N+  AH+   GS   +A +K E+     P   AI+N D+A        FW       K + +  L   D++     +++ LD               V + L + G+HN  N LAA A    +G+    +Q GL      KGR           ++D+TYN  L S+L +L++L+  PG R++ V G M ELG++    H+ VG   + LG+D L          + A G  G   Q F     L+  +K  L P   +L K S S  +  VV +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|3024202|sp|P96613.1|MURF_BACSU</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase; AltName: Full=D-alanyl-D-alanine-adding enzyme; AltName: Full=UDP-MurNAc-pentapeptide synthetase</Hit_def>
+  <Hit_accession>P96613</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>5.31244e-59</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>458</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>439</Hsp_align-len>
+      <Hsp_qseq>ITGVSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQ----FVVASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQPS--HATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVP--GLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTAL---EVLSGRPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCG----LHSELASQAFGEGG-QHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRLVQ</Hsp_qseq>
+      <Hsp_hseq>IHGVATDTRKLEQHQLFIPLKGERFDGHSFVEQAFEAGVAAVLWDRSVP--NPPENHAVILVDDTLTALQQLAKAYLQELGTRVIGVTGSNGKTTTKDMIHAVLGTQYRVHKTGGNFNNHIGLPLTVLAMPENTEIAVLEMGMSAKGEIDLLSRLANPDAAVITNIGESHMQDLGSREGIAEAKLEIINGLKEDGVLIYIGDEP---LLQNAYSCQTKTYGTGTH-NDYQLQDVSQSEEG-THFTI----KGIENTFFIPILGKHNVMNAMAAIAAGAYFGIAPEDAAKGLSGLKVTGMRLELIKTDSGLSIINDAYNASPTSMKAAIQLTESLEGY-GKKMLVLGDMLELGDLEETFHKECGAVISPDKIDRVFTYGKLGAFIAEGALKHFEKDRVSHYTEKKDLLQAVKENASKGDLILFKASRGMKLEEIVKDLIE</Hsp_hseq>
+      <Hsp_midline>I GV+ DTR L+   LF  + GERFDGH F+++A   G +A + +RS+   + P+     +V   L AL ++A A+ QE+   +I +TGSNGKTT K+MI  +L      H T GN NNHIG+PL++LA+ +    AV E+G +  GEI     +  PD ++I NI  +H++  GS +G+A +K EI  GL   GV I   D+       +  + +     +  H  D   QD+     G  HFT+      +E    +P  G HNV NA+AA A     GI+  D  +GL+       R+ ++   +  ++I+D YNA+  S+  A+   E L G  G+K+ V GDM ELG+     H+E G       ID++ + G      +E A + F +    H+  +++L++ VK + +    +L K SR   +E +V  L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|27808668|sp|O33804.2|MURF_STRTO</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase; AltName: Full=D-alanyl-D-alanine-adding enzyme; AltName: Full=UDP-MurNAc-pentapeptide synthetase</Hit_def>
+  <Hit_accession>O33804</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>8.21127e-59</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>421</Hsp_align-len>
+      <Hsp_qseq>IDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLMALAKIAA--AHRQEMSCPIIALTGSNGKTTVKEMIATIL--PQPSHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLHPADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQRGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSG-RPGRKIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGEGGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVVHRL</Hsp_qseq>
+      <Hsp_hseq>LDSRQAEPGGLFVAFAGEHADGHDYAERAGRAGAVAVLGSRP---TSLPTVVVEDVRTALQTLAAHVVARLRDGLTVVGVTGSQGKTGTKDLLAAVLSGAGPTVATTGSLNNELGVPLTMLRAQAATRFLVLEMGARHEGDIAELTGLVAPDIAVVLNVGVAHLGEFGSRAAIARAKGELVQGLVPGGTAVLNADDPRVASM-SVLTDGPVLTFGRTDPADVQVLDVVLDRLGRPSCTLRTVDTSARLALPLVGAHQALNASAAAAAALAAGVPLDLATTALTTASLSPWRMELRDLACGATLLNDSYNANPDSTRAALDALSAIEGGRRIAVLGEMLELGDGSEAEHRAVGAYAAARADVVVAVGEAARPLADGA-GERAVVLAGNDAAVDWLRDHLAAGDVVLVKASRGARLDEVAAGL</Hsp_hseq>
+      <Hsp_midline>+D+R  +PG LF A  GE  DGHD+ + A   GA A + +R      +P  VV     AL  +AA    R      ++ +TGS GKT  K+++A +L    P+ AT G+LNN +GVPL+ML      R+ V E+GA H G+IA   G+V PD++++ N+  AH+  FGS   +AR+KGE+ QGL P G A++N DD        ++ D  +L F    PAD+   D+ LD  GR   TL   ++   + L + G H   NA AAAA   A G+  +     L        RM +      +T+++D+YNAN  S   AL+ LS    GR+I V G+M ELG+ +   HR VG  A       +        LA  A GE        +  ++ +++ L     VLVK SR + ++ V   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|6225736|sp|O05953.2|MURF_RICPR</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase; AltName: Full=D-alanyl-D-alanine-adding enzyme; AltName: Full=UDP-MurNAc-pentapeptide synthetase</Hit_def>
+  <Hit_accession>O05953</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>9.91529e-54</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>453</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>VSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFV-VASPLMALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQP--SHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSL----HPADIYAQDIRLDTHG-RAHFTLVLPNSRVEIELQVPGLHNVRNALAAAACCYAVGISGNDIQ---RGLAHFGGVKGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPG-RKIFVFGDMGELGEWTTQH-HREVGVAARQLGIDKLMSCGLHSELASQAFGE--GGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVV</Hsp_qseq>
+      <Hsp_hseq>VQFNSKDVKKGDLFIALQGNR-DGHDYIQDAIDKGATAVIVSKQVEINDKDKIILVNNSFEALQKMALYKRENSKAKFIAITGSVGKTSTKEALKILLQHDFIVFASRGNFNNYLGLLINLASMADDTEYAIFELGMNHQGEISELVQILKPNIAMINNISEAHLEFFHSLEEIAEAKCEIFKNFSKNDIAIIN---ASNNCYNKILSILKNLSITNIYSFGHSSKASAKLILYKTLGEQVHLQYYINNKFIDITIPFIPRHFANN---YTGVLLIIDILGKDIEISAKYLADIALTKGRGKIINIQN-SRVICDYYNASPQSMKAALEYLKQVPADNKTSIIGEMLELG-WNSQRLHEELVPYILDAGCTKVYLVGAYTKYIYDLLPNKISKKFFKNVEELITHITDLFEYSELILIKGSRGVKLDKIV</Hsp_hseq>
+      <Hsp_midline>V  +++ +K G+LF A+ G R DGHD+I++A  KGA+A +V++ ++     + + V +   AL K+A   R+      IA+TGS GKT+ KE +  +L       A++GN NN++G+ +++ ++     YA+FELG NH GEI+  V I++P++++INNI+ AH+E F S++ +A +K EI +  S   +AI+N   A  + ++ +++  K L  +++    H +   A+ I   T G + H    + N  ++I +     H   N          + I G DI+   + LA     KGR  +++ QN S VI D YNA+ +S+  ALE L   P   K  + G+M ELG W +Q  H E+       G  K+   G +++            + F + EELI  + +       +L+KGSR   ++ +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|20139035|sp|Q92H60.1|MURF_RICCN</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase; AltName: Full=D-alanyl-D-alanine-adding enzyme; AltName: Full=UDP-MurNAc-pentapeptide synthetase</Hit_def>
+  <Hit_accession>Q92H60</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>6.36378e-51</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>453</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>223</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>VSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLM-ALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQP--SHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLH----PADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGL--HNVRNALAAAACCYAVGISGNDIQRGLAHFGGV---KGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGR-KIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGE--GGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVV</Hsp_qseq>
+      <Hsp_hseq>VQFNSKDVKKGNLFIALQGNR-DGHDYVLDAIDKGAAAVIISKRVEINDKDKIILVDDCFEALQKMALYKRENSKAKFIAITGSVGKTSTKEALKVLLQHDFLVFASRGNFNNKLGMLINLASMADDTEYAIFELGMNHKGEIRELVQILKPNIAMITNISEAHLEFFNSLEEIAEAKCEIFANFSKNDIAVINAD---TNCYNKILSILKNLSITDIHSFGRSAKTSAELILYENLGEQVYLKYKINKKV-LDVTIPFIPRHFTEN---YTGVLLIIDILGKDIEIAANHLANISPTKGRGEIINIQN-CRVICDYYNASPQSMKAALEYLKQVPAENKTAIIGDMLELGENSKRLHEKLVQYILDAACSKVYLVGVNTKYINDLLPAKIAKKYFKNVDELITHITDLFEGNELILIKGSRGVKLDKIV</Hsp_hseq>
+      <Hsp_midline>V  +++ +K GNLF A+ G R DGHD++ +A  KGA+A ++++ ++     + ++      AL K+A   R+      IA+TGS GKT+ KE +  +L       A++GN NN +G+ +++ ++     YA+FELG NH GEI   V I++P++++I NI+ AH+E F S++ +A +K EI    S   +A++N D    + ++ +++  K L  + +H     A   A+ I  +  G   +     N +V +++ +P +  H   N          + I G DI+    H   +   KGR  +++ QN   VI D YNA+ +S+  ALE L   P   K  + GDM ELGE + + H ++          K+   G++++  +         ++F + +ELI  + +    +  +L+KGSR   ++ +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|75487918|sp|Q9AKP1.1|MURF_RICMO</Hit_id>
+  <Hit_def>RecName: Full=UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase; AltName: Full=D-alanyl-D-alanine-adding enzyme; AltName: Full=UDP-MurNAc-pentapeptide synthetase</Hit_def>
+  <Hit_accession>Q9AKP1</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>8.14315e-49</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>453</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>VSIDTRTLKPGNLFFAIVGERFDGHDFIKEAEAKGASAAVVNRSIDGVHIPQFVVASPLM-ALAKIAAAHRQEMSCPIIALTGSNGKTTVKEMIATILPQP--SHATKGNLNNHIGVPLSMLALNKQHRYAVFELGANHPGEIAHTVGIVQPDVSLINNIAPAHVEGFGSIDGVARSKGEIHQGLSPTGVAIVNDDDAYAHFWDDLIADKKILRFSSLH----PADIYAQDIRLDTHGRAHFTLVLPNSRVEIELQVPGL--HNVRNALAAAACCYAVGISGNDIQRGLAHFGGV---KGRMTMLSGQNQSTVIDDTYNANLRSVLTALEVLSGRPGR-KIFVFGDMGELGEWTTQHHREVGVAARQLGIDKLMSCGLHSELASQAFGE--GGQHFCSQEELIEVVKNDLTPDTTVLVKGSRSSAMENVV</Hsp_qseq>
+      <Hsp_hseq>VQFNSKDVKKGDLFIALQGNR-DGHDYVLDAIDKGAAAVIISKQVEINDKDKIILVDDCFEALQKMALYKRENSKAKFIVITGSVGKTSTKEALKVLLQHDFLVFASRGNFNNKLGMLINLASMADDTEYAIFELGMNHKGEIRELVQILKPNIAMITNISEAHLEFFNSLEEIAEAKCEIFANFSKNDIAVINAD---TNCYNKILSILKNLSITDIHSFGRSSKTSAELILYENLGEQVYLKYKINNKV-LDVTIPFIPRHFTEN---YTGVLLIIDILGKDIEIAANHLANISPTKGRGEIINIQN-CRVICDYYNASPQSMKAALEYLKQVPAENKTAIIGDMLELGENSKRLHEKLVQYILDAACSKVYLVGVNTKYIDDLLPSKIAKKYFKNVDELMTHITDLFEGNELILIKGSRGVKLDKIV</Hsp_hseq>
+      <Hsp_midline>V  +++ +K G+LF A+ G R DGHD++ +A  KGA+A ++++ ++     + ++      AL K+A   R+      I +TGS GKT+ KE +  +L       A++GN NN +G+ +++ ++     YA+FELG NH GEI   V I++P++++I NI+ AH+E F S++ +A +K EI    S   +A++N D    + ++ +++  K L  + +H     +   A+ I  +  G   +     N++V +++ +P +  H   N          + I G DI+    H   +   KGR  +++ QN   VI D YNA+ +S+  ALE L   P   K  + GDM ELGE + + H ++          K+   G++++            ++F + +EL+  + +    +  +L+KGSR   ++ +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>468734</Statistics_db-num>
+      <Statistics_db-len>176603381</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

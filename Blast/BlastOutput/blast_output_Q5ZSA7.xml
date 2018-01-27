@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.7.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_162119</BlastOutput_query-ID>
+  <BlastOutput_query-def>Q5ZSA7 | lpg2612 length= 364</BlastOutput_query-def>
+  <BlastOutput_query-len>364</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>3</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_162119</Iteration_query-ID>
+  <Iteration_query-def>Q5ZSA7 | lpg2612 length= 364</Iteration_query-def>
+  <Iteration_query-len>364</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|190359178|sp|Q5ZSA7.2|DDL_LEGPH</Hit_id>
+  <Hit_def>RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase</Hit_def>
+  <Hit_accession>Q5ZSA7</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>753.821</Hsp_bit-score>
+      <Hsp_score>1945</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>364</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81367752|sp|Q5WTI9.1|DDL_LEGPL</Hit_id>
+  <Hit_def>RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase</Hit_def>
+  <Hit_accession>Q5WTI9</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>752.281</Hsp_bit-score>
+      <Hsp_score>1941</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMIHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAM+HHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81369792|sp|Q5X1S8.1|DDL_LEGPA</Hit_id>
+  <Hit_def>RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase &gt;gi|166198489|sp|A5IAW4.1|DDL_LEGPC RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase</Hit_def>
+  <Hit_accession>Q5X1S8</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>751.895</Hsp_bit-score>
+      <Hsp_score>1940</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>362</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_qseq>
+      <Hsp_hseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDAEIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGVAYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_hseq>
+      <Hsp_midline>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLINGRLAVDA+IVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATG+AYPDLLDELINLAMVHHNCRQHLVTNYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|39931119|sp|Q89GA7.1|DDLA_BRADU</Hit_id>
+  <Hit_def>RecName: Full=D-alanine--D-alanine ligase A; AltName: Full=D-Ala-D-Ala ligase A; AltName: Full=D-alanylalanine synthase A</Hit_def>
+  <Hit_accession>Q89GA7</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.865</Hsp_bit-score>
+      <Hsp_score>834</Hsp_score>
+      <Hsp_evalue>7.81836e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDL-LACSDKLPVVTE-------KSTPLEGLLI------NGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHLVTNY</Hsp_qseq>
+      <Hsp_hseq>MADKIRVVVLYGGRSGEHEVSLKSAASVFRHLDRTRFEVIPVSIDKTGRWQWNDLRSLDQAHAAALPILPDAPEMRLARGPDGRGVLVPITQGAAAPIAID--VVFPVIHGPLCEDGTVQGLLELADVAYVGSGVLASAVSMDKDVAKRLAEFAGIPVAPYRVLTRKAFVQDRVSSLAKAVEGLSLPVFVKPCNMGSSVGIHKVKTQDALEAALDDAFRYDVKVLVQQGIDAREIEVAVLEDETLFA----SLASELNPNAHHEFYSYEAKYLDPDGARVDLPARLDAAQMERVRSLATRVFAALECSGFARVDFFLDRKTGEFCFNEINTLPGFTSISMYPKMMEASGVPYGELLSRLVDLALDRHRQRQSLERGY</Hsp_hseq>
+      <Hsp_midline>M+  + +V+LYGG+SGEHEVSL SAASV +HLD  ++ +IP+++DK+GR+  +D   L  A +  LP++ +       +     G+L+         +A+D  +VFPV+HGPL EDG +QGLLELA VAYVG  VL+SA+ MDKD+A+RLA   G+  A Y++L+  A   +R     +       P+FVKPC++GSSVGIHK    D L AA+ DA RYD ++LV++ I  REIE+AVLE+         S+  E+  N    +YSY AKYL+     + +PA+L+ +  E+++  A  +F+ L+C G ARVDFF++ KT E  FNEINTLPGFTSISMYPK+ +A+G+ Y +LL  L++LA+  H  RQ L   Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|166198476|sp|A4XJ89.1|DDL_CALS8</Hit_id>
+  <Hit_def>RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase</Hit_def>
+  <Hit_accession>A4XJ89</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.827</Hsp_bit-score>
+      <Hsp_score>769</Hsp_score>
+      <Hsp_evalue>4.55148e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>369</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRF--HRHDYNDL--------LACSDKLPVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHL</Hsp_qseq>
+      <Hsp_hseq>MTK-LKVAVLFGGVSTEHEVSIVSAKSVMQNLDKEKYEIIPIGITKEGKWLLYTGKIEDLDSKWTMYSIECFIS-PDRTKKA--LVKIKDSEATFIDIDVVFPVLHGLNGEDGTVQGLLELSGIPYVGCGVLSSALCMDKAFAKKLALLEGIPQGHFLVIYKDEYLSKKEYFIRRIESEFSYPVFVKPANSGSSVGISKAKDKDELILAIHEAFLYDTKILIEQAINAREIECAVLGNS----EILVSALGEIVPSRE--FYSYEAKYIDGS-SELIIPAKLEKQVEDEIKELAVKIYKLFECSGMARIDFFVDKETNKVYFNEVNTIPGFTSISMYPKLMEYSGIPYPQLLDKLIQLAIEKNQQKQSI</Hsp_hseq>
+      <Hsp_midline>M+K + + +L+GG S EHEVS+VSA SV+++LD EKY IIPI + K G++  +     DL        + C    P  T+K+  L  +  +    +D  +VFPV+HG   EDG +QGLLEL+G+ YVGC VLSSA+ MDK  A++LA + G+    + ++      S+++ F   + SEF +P+FVKP + GSSVGI KA + DEL  A+ +A  YD +IL+E+ I  REIE AVL NS    +  VS +GEI  +    +YSY AKY++ S ++LIIPA+L   +E+++K+ A  I+   +C GMAR+DFFV+ +T ++YFNE+NT+PGFTSISMYPKL + +GI YP LLD+LI LA+  +  +Q +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|254767717|sp|B9MLC6.1|DDL_CALBD</Hit_id>
+  <Hit_def>RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase</Hit_def>
+  <Hit_accession>B9MLC6</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.16301e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRF--HRHDYNDLLACSDKL-------PVVTEKSTPLEGLLINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHL</Hsp_qseq>
+      <Hsp_hseq>MTK-LKVAVLFGGVSTEHEISIVSAKSIMQNMDKEKYEVIPIGITKEGKWLLYTGKIEDLDSKWTQFSIECFVSPDRTKKA--LVKVKDNEATFIDIDVVFPVLHGLNGEDGTVQGLLELSGIPYVGCGVLSSAICMDKAFAKKLALLEGIPQGHFLVVYKNEYSAKKDYFIRRIESEFSYPVFVKPANSGSSVGISKAKDREDLVLAIHEAFLYDTKILIEQAINAREIECAVLGND----EVFVSEPGEIIPSRE--FYSYEAKYIDNS-SELIIPARLPKEVTEEIKDLAGRIYKIFECCGMARVDFFVDKDTNKVYFNEVNTIPGFTSISMYPKLMEFSGIPYSQLIDKLISLAIEKNRQKKSI</Hsp_hseq>
+      <Hsp_midline>M+K + + +L+GG S EHE+S+VSA S+++++D EKY +IPI + K G++  +     DL +   +        P  T+K+  L  +  N    +D  +VFPV+HG   EDG +QGLLEL+G+ YVGC VLSSAI MDK  A++LA + G+    + ++  +  ++++  F   + SEF +P+FVKP + GSSVGI KA + ++L  A+ +A  YD +IL+E+ I  REIE AVL N     +  VS  GEI  +    +YSY AKY+++S ++LIIPA+L   + E++K  A  I+   +C GMARVDFFV+  T ++YFNE+NT+PGFTSISMYPKL + +GI Y  L+D+LI+LA+  +  ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|39930897|sp|Q8ERJ6.1|DDL_OCEIH</Hit_id>
+  <Hit_def>RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase</Hit_def>
+  <Hit_accession>Q8ERJ6</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.863</Hsp_bit-score>
+      <Hsp_score>699</Hsp_score>
+      <Hsp_evalue>1.56725e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>375</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGLLI------------NGRLAVDA-KIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCH--EVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDG-YYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHL</Hsp_qseq>
+      <Hsp_hseq>MKKKVGIV--FGGKSAEHEVSLQSAKNIVDAIDSDKYDVYLLGIDKQGNWHVNDRSHYLINEEDPKLISLNKTN-EGIAVIPGAEKNQIVTSNSTKSLDQLDVIFPIVHGTLGEDGSLQGMLRMANIPFVGSSVLGSAISMDKDIAKRL-----LKDAGLKVAKGYAYRSVDKESIHFDSLKEELGLPMFIKPANQGSSVGVHKVENEEQFYSAIKDAFQFDHKLLVEEAIVGREIECAVLGNE----KPAASVPGEI---LPTGDFYSYEAKYIDETGAVLQIPAKLEEPVVDSIQDIALQAFKALNCEGLARVDVFLTDDN-EIVINEINTLPGFTKISMYPKLWEESGVSYRELIENLIELAIERNQRDQQL</Hsp_hseq>
+      <Hsp_midline>M K V +V  +GGKS EHEVSL SA +++  +DS+KY +  + +DK G +H +D +  L   +   +++   T  EG+ +            N   ++D   ++FP+VHG L EDG LQG+L +A + +VG  VL SAI MDKD+A+RL     LK A  K+   +A  S  ++  H   +  E G P+F+KP + GSSVG+HK  N ++  +A+ DA ++D ++LVEE IVGREIE AVL N     KP  S+ GEI    P G +YSY AKY++ +   L IPA+L   + + ++  A   F  L C+G+ARVD F+ D   EI  NEINTLPGFT ISMYPKLW+ +G++Y +L++ LI LA+  +   Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|229485975|sp|B4ETX3.1|DDL_PROMH</Hit_id>
+  <Hit_def>RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase</Hit_def>
+  <Hit_accession>B4ETX3</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.478</Hsp_bit-score>
+      <Hsp_score>698</Hsp_score>
+      <Hsp_evalue>2.46955e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>366</Hsp_align-len>
+      <Hsp_qseq>MSKPVNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGL-------------LINGRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHH</Hsp_qseq>
+      <Hsp_hseq>MSK-LRVAIIFGGKSTEHQVSLQSAKNIINELDRTKFDLCLIGINEQGQWHEYAEDNYLINSDN-PSTISLSQPLRPVAIIPGSTRQQFISLTDGQPLAQIDVVFPIVHGAYGEDGTLQGLLHMIDMPYVGPNIMSSAACMDKDITKRLLDDAGLAVAPFITLMAH---QLNDISYNEVVEQLGLPLFIKPANLGSSVGISKVNNEAEFNAALSMAFEYDLKVIIESAIVGREIECAVLGNE----EPEVSPCGEIVLN--DAFYAYNTKYIDDDGAKVVVPADLDNAISLHIRQTALKAYQVLNCLGMSRVDVFLTEDN-QVIINEINTLPGFTNISMYPKLWQSTGLDYQSLITKLIELALEHH</Hsp_hseq>
+      <Hsp_midline>MSK + + +++GGKS EH+VSL SA +++  LD  K+ +  I +++ G++H +  ++ L  SD  P     S PL  +             L +G+      +VFP+VHG   EDG LQGLL +  + YVG +++SSA  MDKD+ +RL    GL  A +  L  H          +EV  + G PLF+KP +LGSSVGI K NN  E NAA++ A  YD ++++E  IVGREIE AVL N     +P VS  GEI +N  D +Y+Y  KY++     +++PA L+N++   ++Q A   +  L C GM+RVD F+ +   ++  NEINTLPGFT+ISMYPKLWQ+TG+ Y  L+ +LI LA+ HH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|39930832|sp|Q7TXH9.1|DDL_MYCBO</Hit_id>
+  <Hit_def>RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase</Hit_def>
+  <Hit_accession>Q7TXH9</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>3.83039e-87</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>352</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>VNLVLLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYN-DLLACSDK-LPVV-----TEKSTPLE----GLLIN-----GRLAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKV----NHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVH</Hsp_qseq>
+      <Hsp_hseq>VRVAVVFGGRSNEHAISCVSAGSILRNLDSRRFDVIAVGITPAGSWVLTDANPDALTITNRELPQVKSGSGTELALPADPRRGGQLVSLPPGAGEVLESVDVVFPVLHGPYGEDGTIQGLLELAGVPYVGAGVLASAVGMDKEFTKKLLAADGLPVGAYAVLRPPRSTLHRQE-CE----RLGLPVFVKPARGGSSIGVSRVSSWDQLPAAVARARRHDPKVIVEAAISGRELECGVLE--MPDGTLEASTLGEIRVAGVRGREDSFYDFATKYLDDA-AELDVPAKVDDQVAEAIRQLAIRAFAAIDCRGLARVDFFLTDDGPVI--NEINTMPGFTTISMYPRMWAASGVDYPTLLATMIETALAR</Hsp_hseq>
+      <Hsp_midline>V + +++GG+S EH +S VSA S+L++LDS ++ +I + +  +G +   D N D L  +++ LP V     TE + P +    G L++     G +     +VFPV+HGP  EDG +QGLLELAGV YVG  VL+SA+GMDK+  ++L   +GL    Y +L    +   RQ+ C       G P+FVKP   GSS+G+ + ++ D+L AAVA A R+D +++VE  I GRE+E  VLE  +P G    S +GEI+V       D +Y +  KYL+ +  +L +PA++++ + E ++Q A   F+ + C+G+ARVDFF+ D    I  NEINT+PGFT+ISMYP++W A+G+ YP LL  +I  A+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81365565|sp|Q5WDW9.1|DDL_BACSK</Hit_id>
+  <Hit_def>RecName: Full=D-alanine--D-alanine ligase; AltName: Full=D-Ala-D-Ala ligase; AltName: Full=D-alanylalanine synthetase</Hit_def>
+  <Hit_accession>Q5WDW9</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>4.28512e-87</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>LLYGGKSGEHEVSLVSAASVLKHLDSEKYHIIPIAMDKSGRFHRHDYNDLLACSDKLPVVTEKSTPLEGL-LINGR------------LAVDAKIVFPVVHGPLYEDGCLQGLLELAGVAYVGCDVLSSAIGMDKDMARRLACINGLKSARYKLLSWHANASERQQFCHEVASEFGWPLFVKPCSLGSSVGIHKANNMDELNAAVADALRYDEEILVEEFIVGREIELAVLENSIPCGKPRVSMVGEIKVNHPDGYYSYTAKYLESSQTDLIIPAQLNNSLEEQLKQAAANIFSYLKCKGMARVDFFVNDKTEEIYFNEINTLPGFTSISMYPKLWQATGIAYPDLLDELINLAMVHHNCRQHL</Hsp_qseq>
+      <Hsp_hseq>IIFGGKSAEHEVSLQSAKNIVEAIDKDRFDVTLIGIDKQGQWHINEASNFLLNADN-PALIELNKSNQGVALIPGKEDRQLVGTANQSVLDQLDVVFPIVHGTLGEDGSLQGMFRLANLPFVGSNVLGSAVSMDKDIAKRLLQGAGLHVASG--LTFTRAAKETIDF-ESIADQLGLPLFIKPANQGSSVGVNKATTEAEFTAAIEEAFSYDHKVLIEAAIKGREIECAVLGNDY----PKASTCGEILPQ--DGFYSYDAKYIDEDGAKLAIPADLPEDVNRRIQDIAIQAYKTLNCEGLARVDVFLTE-TGEVIINEVNTLPGFTKISMYPKLWEASGVSYQDLITTLIELAIERHERDKQL</Hsp_hseq>
+      <Hsp_midline>+++GGKS EHEVSL SA ++++ +D +++ +  I +DK G++H ++ ++ L  +D  P + E +   +G+ LI G+            +     +VFP+VHG L EDG LQG+  LA + +VG +VL SA+ MDKD+A+RL    GL  A    L++   A E   F   +A + G PLF+KP + GSSVG++KA    E  AA+ +A  YD ++L+E  I GREIE AVL N      P+ S  GEI     DG+YSY AKY++     L IPA L   +  +++  A   +  L C+G+ARVD F+ + T E+  NE+NTLPGFT ISMYPKLW+A+G++Y DL+  LI LA+  H   + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>468734</Statistics_db-num>
+      <Statistics_db-len>176603381</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

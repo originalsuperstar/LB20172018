@@ -1,0 +1,22 @@
+  _______________________________________ Q5ZSA2
+ |
+ |          , gi|61213972|sp|Q5X1S3.1|MRAY_LEGPA
+ |          |
+ | _________| gi|61213987|sp|Q5ZSA2.2|MRAY_LEGPH
+ ||         |
+ ,|         | gi|61213969|sp|Q5WTI4.1|MRAY_LEGPL
+ ||
+ ||         , gi|61214327|sp|Q83F26.1|MRAY_COXBU
+ ||_________|
+_|          | gi|189082226|sp|A9NA35.1|MRAY_COXBR
+ |
+ |   ______ gi|189082233|sp|A6VYK1.1|MRAY_MARMS
+ |  |
+ |__|    _ gi|97176883|sp|Q4K6J0.1|MRAY_PSEF5
+ |  |   |
+ |  |___|_ gi|37999640|sp|Q88N79.1|MRAY_PSEPK
+ |      |
+ |      |_ gi|167011847|sp|A4XQS1.1|MRAY_PSEMY
+ |
+ |________ gi|61213956|sp|Q5R0M4.1|MRAY_IDILO
+

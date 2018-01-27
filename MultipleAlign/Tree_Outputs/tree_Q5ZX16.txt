@@ -1,0 +1,22 @@
+               __________________________ Q5ZX16
+              |
+              |            , gi|21362721|sp|Q9JSZ0.1|MURE_NEIMA
+          ____|    ________|
+         |    | __|        | gi|21362724|sp|Q9K0Y9.1|MURE_NEIMB
+         |    ||  |
+         |    ||  |__________ gi|46576920|sp|Q7NPZ4.1|MURE_CHRVO
+  _______|     |
+ |       |     |___________ gi|38257959|sp|Q87WY0.1|MURE_PSESM
+ |       |
+ |       |_______ gi|122945144|sp|Q0I1D8.1|MURE_HAES1
+ |       |
+ |       |_______ gi|13431686|sp|P57815.1|MURE_PASMU
+ |
+_| gi|1171073|sp|P45060.1|MURE_HAEIN
+ |
+ | gi|81335888|sp|Q4QLG3.1|MURE_HAEI8
+ |
+ , gi|166224778|sp|A5UIQ7.1|MURE_HAEIG
+ |
+ | gi|166224777|sp|A5UCX3.1|MURE_HAEIE
+

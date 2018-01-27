@@ -1,0 +1,22 @@
+              ___________________________ Q5ZSA3
+             |
+      _______|            , gi|62900494|sp|Q5ZSA3.1|MURD_LEGPH
+     |       |            |
+     |       |____________| gi|62900489|sp|Q5X1S4.1|MURD_LEGPA
+    ,|                    |
+    ||                    | gi|62900487|sp|Q5WTI5.1|MURD_LEGPL
+    ||
+    ||____ gi|30316126|sp|Q9HVZ9.1|MURD_PSEAE
+    |
+  __|___ gi|38258004|sp|Q88N78.1|MURD_PSEPK
+ |  |
+ |  |  _ gi|118595675|sp|Q3K742.1|MURD_PSEPF
+ |  |_|
+ |    |_ gi|81174950|sp|Q4K6J1.1|MURD_PSEF5
+ |
+_| gi|38257960|sp|Q87WY3.1|MURD_PSESM
+ |
+ | gi|118595674|sp|Q48EF6.1|MURD_PSE14
+ |
+ | gi|75500772|sp|Q4ZNY8.1|MURD_PSEU2
+

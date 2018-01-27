@@ -1,0 +1,104 @@
+#####lpn:lpg2310#####
+
+ENTRY       lpg2310           CDS       T00199
+
+NAME        murI
+
+DEFINITION  (RefSeq) glutamate racemase
+
+ORTHOLOGY   K01776  glutamate racemase [EC:5.1.1.3]
+
+ORGANISM    lpn  Legionella pneumophila subsp. pneumophila Philadelphia 1
+
+PATHWAY     lpn00471  D-Glutamine and D-glutamate metabolism
+
+            lpn01100  Metabolic pathways
+
+BRITE       KEGG Orthology (KO) [BR:lpn00001]
+
+             Metabolism
+
+              Metabolism of other amino acids
+
+               00471 D-Glutamine and D-glutamate metabolism
+
+                lpg2310 (murI)
+
+            Enzymes [BR:lpn01000]
+
+             5. Isomerases
+
+              5.1  Racemases and epimerases
+
+               5.1.1  Acting on amino acids and derivatives
+
+                5.1.1.3  glutamate racemase
+
+                 lpg2310 (murI)
+
+            Peptidoglycan biosynthesis and degradation proteins [BR:lpn01011]
+
+             Precursor biosynthesis
+
+              Racemase
+
+               lpg2310 (murI)
+
+POSITION    complement(2609894..2610760)
+
+MOTIF       Pfam: Asp_Glu_race FIST
+
+DBLINKS     NCBI-GeneID: 19833875
+
+            NCBI-ProteinID: YP_096319
+
+            Pasteur: lpg2310
+
+            UniProt: Q5ZT55
+
+AASEQ       288
+
+            MPNKRARKQMTRRSNQLNSNKDLAIGVFDSGMGGLTVLRALRDKLPHESFVYLGDTARLP
+
+            YGTKSPDTVKQYAMQMAKILVERRIKALVIACNTATTAALPHLQSMLTDIPVLGVVAPGA
+
+            AAAVSATKNHRIAVLATETTIASRAYHDLIIKNLPEAVVSSRACSVLVALAEEGMVTNAV
+
+            AREALKHYLDDFSDEDAVLLGCTHFPVFKPLLSSLLPKDVAIVDSAQATAISLYELLQNQ
+
+            NLHNDNLEAPPRINYLVTDSINRFQKVGEIFLGEQLSLSDIELIDAMG
+
+NTSEQ       867
+
+            ttgccaaataagagagccaggaaacaaatgacaagaaggagtaatcaattgaactctaac
+
+            aaggatttggctattggtgtattcgattcaggcatggggggacttacggttttaagggct
+
+            ctgcgggataaattacctcatgaatcttttgtttatttgggagataccgcccgtttacct
+
+            tatggcacaaaaagccctgacacagtcaaacaatatgctatgcaaatggcaaaaattttg
+
+            gttgagcgccgcataaaagctttagtcattgcctgtaatactgcaacgacggctgcctta
+
+            cctcatttacagagcatgttaaccgatattccggttctgggtgtggtggcacctggtgca
+
+            gccgctgctgtgtcagctaccaaaaatcatcgtattgctgttctggctacagaaacaacc
+
+            attgcttccagagcctatcatgatttgatcataaagaatttgcctgaggcagttgtcagt
+
+            agtcgggcatgtagtgttttagtcgccttggcagaggaaggtatggtgactaatgcagtt
+
+            gctcgtgaggcattgaagcattatctcgacgatttttcggatgaagatgctgtgttattg
+
+            gggtgcactcattttccagtatttaaacccttgctatccagcttattgccaaaagatgtc
+
+            gcaattgtcgattctgctcaggcgactgcaatttctctttatgaattattgcaaaatcaa
+
+            aatctgcacaatgacaatttggaagctccccccagaatcaactatttggtaacagattct
+
+            atcaataggttccagaaggtaggcgagatatttttaggtgagcaattgagtttgagtgat
+
+            attgaattgattgatgctatgggttaa
+
+///
+

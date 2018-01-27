@@ -1,0 +1,15 @@
+#Batch CD-search tool	NIH/NLM/NCBI
+#cdsid	QM3-qcdsearch-2E4BDDA5ACDA446D-2138545B03D67A4
+#datatype	feats
+#status	0
+#Start time	2018-01-18T14:38:14	Run time	0:00:00:23
+#status	success
+
+Query	Type	Title	coordinates	complete size	mapped size	source domain
+Q#1 - > Q5ZXC4 | lpg0808 length= 363	specific	active site	G14,D124,S196,L222,Y243,L248,G263,A264,N265,S266,E269,S283,D290,Q291,N294	15	15	99961
+Q#1 - > Q5ZXC4 | lpg0808 length= 363	specific	homodimer interface	L71,P74,S85,L113,V138	5	5	99961
+Q#2 - > Q5ZX85 | lpg0847 length= 422	specific	active site	N23,R93,L97,R122,P123,V124,D125,L126,H127,T163,V166,T167,D308	13	13	238796
+Q#2 - > Q5ZX85 | lpg0847 length= 422	specific	hinge	I18,S19,G20,A21,V231,M232,S233,D234	8	8	238796
+Q#9 - > Q5ZSA2 | lpg2617 length= 361	specific	Mg++ binding site	D115,D116	2	2	133462
+Q#9 - > Q5ZSA2 | lpg2617 length= 361	specific	putative catalytic motif	F264,M265,G266,D267	4	4	133462
+Q#9 - > Q5ZSA2 | lpg2617 length= 361	specific	putative substrate binding site	R318,P324,L325,H326,H327,H328	6	6	133462

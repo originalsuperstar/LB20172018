@@ -1,0 +1,22 @@
+            _____________________________ Q5ZSA6
+           |
+           |          , gi|189028922|sp|A9KER1.1|MURB_COXBN
+           |          |
+  _________|          |, gi|47605865|sp|Q83F16.1|MURB_COXBU
+ |         | _________||
+ |         ||         || gi|254764174|sp|B6J2Q1.1|MURB_COXB2
+ |         ||         |
+ |         ||         | gi|254764173|sp|B6J5K1.1|MURB_COXB1
+ |          |
+ |          |  ________ gi|122311124|sp|Q0A6K4.1|MURB_ALKEH
+ |          |_|
+ |            |_________ gi|81681289|sp|Q604V9.1|MURB_METCA
+ |
+ | gi|81367751|sp|Q5WTI8.1|MURB_LEGPL
+ |
+_| gi|166222839|sp|A5IAW3.1|MURB_LEGPC
+ |
+ | gi|115311640|sp|Q5ZSA6.2|MURB_LEGPH
+ |
+ | gi|81369791|sp|Q5X1S7.1|MURB_LEGPA
+
